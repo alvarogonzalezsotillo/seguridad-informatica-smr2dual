@@ -1,0 +1,86 @@
+#+include: "../common/header.org"
+#+Title: SEGURIDAD INFORMÁTICA
+#+SUBTITLE: CÓDIGO: ????
+#+KEYWORDS: 
+#+REVEAL_THEME: serif
+
+* Cómo serán las clases
++ Teoría
+  - Basada en apuntes
++ Ejercicios
+  - Se realizan en clase o en casa
+  - Se ponen en común al día siguiente
++ Práctica
+  - Máquinas virtuales
++ Trabajos
+
+* Materiales 
++ Memoria USB
++ Correo electrónico
++ Acceso a Internet fuera del aula
++ Portátil propio (opcional)
+
+** Libro de referencia
++ Seguridad Informática
++ Editorial: MacMillan
++ Autor: Gema Escrivá Gascó
++ ISBN: 978-84-15656-64-7 
+[[file:portada-libro.png]]
+
+* Entrega de Trabajos
+- Via *Moodle*
+  + Nuestro curso es http://aulavirtual2.educa.madrid.org/course/view.php?id=9397
+  + El curso es accesible incluso sin usuario
+- Se utilizará Microsoft Office (*DOC*, *DOCX*)
+  + Opcionalmente, *PDF* o LibreOffice (*ODT*)
+- Se tendrá en cuenta
+  + La corrección técnica de los trabajos
+  + La fecha de entrega
+  + Expresión, sintaxis, ortografía
+  + La apariencia profesional
+
+* Normas
+- Retrasos y faltas
+- Uso de los ordenadores
+  - No pueden utilizarse para tareas distintas de las encargadas por el profesor
+  - Se respetará a otros alumnos
+
+** Averías de los ordenadores
+- Los problemas se comunican al profesor en cuanto se detectan
+- Se deben hacer copias de seguridad para no perder los datos de los discos
+  - Pen Drive
+  - Disco Externo
+  - Correos enviados a uno mismo
+  - Copias en los ordenadores de otros compañeros
+- Norma fundamental: 
+*Si se pierde porque no hay copia, es que no era importante*
+
+
+
+
+* Cómo será la evaluación
+- Trabajos
+- Actitud
+  - Puntualidad, interés, preguntas al profesor, puesta en común de resultados, comportamiento...
+- Exámenes
+  - Dos parciales y un final por evaluación
+  - Se necesita un mínimo de 3,5 en cada parcial para hacer media
+- Entrega de trabajos
+  - Individuales
+
+** Cálculo de la nota
+- Nota de la evaluación
+#+begin_src notas
+trabajos*0.30 + actitud*0.05 + exámenes*0.65
+#+END_SRC
+
+- Nota de exámenes
+#+begin_src notas
+La mayor de:
+  * Media de la nota de los parciales
+  * Examen final
+#+end_src
+
+- Las notas pueden calcularse con [[file:calculo-notas/calculo-notas.html][el calculador de notas.]]
+
+

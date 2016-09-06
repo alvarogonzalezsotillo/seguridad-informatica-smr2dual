@@ -1,0 +1,36 @@
+#+attr_latex: :width 1pt :placement [H]
+[[file:../common/background.png]]
+#+AUTHOR: Álvaro González Sotillo
+#+EMAIL: alvaro.gonzalezsotillo@educa.madrid.org
+#+LANGUAGE:  es
+#+OPTIONS:   H:3
+#+OPTIONS:   toc:1 TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc timestamp:t
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS:
+#+LATEX_HEADER:
+#+LATEX_HEADER_EXTRA: \usepackage[margin=1.5cm]{geometry} \usepackage{attachfile} \hypersetup{colorlinks,linkcolor=black}
+#+DESCRIPTION:
+#+KEYWORDS: 
+#+SUBTITLE:
+#+REVEAL_THEME: white
+#+REVEAL_HLEVEL: 1
+#+REVEAL_SLIDE_FOOTER:
+#+REVEAL_SLIDE_HEADER:
+#+REVEAL_PLUGINS: (highlight)
+#+NAME: imagen-para-org
+#+BEGIN_SRC emacs-lisp :exports none :var nombrefichero="faltafichero"
+(defun imagen-para-org (nombrefichero) 
+  (case (and (boundp 'backend) (org-export-backend-name backend))
+    (latex (concatenate 'string "[[file:" nombrefichero ".pdf]]")
+    (t (concatenate 'string "[[file:" nombrefichero ".png]]")))
+#+END_SRC
+#+BEGIN_COMMENT
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+END_COMMENT
+#+REVEAL_ROOT: ../common/reveal.js
+#+OPTIONS: reveal_single_file:t
+#+REVEAL_INIT_SCRIPT: width: '100%'
+#+REVEAL_POSTAMBLE: IES Rosa Chacel 
