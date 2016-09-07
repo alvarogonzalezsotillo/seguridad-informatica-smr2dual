@@ -1,0 +1,24 @@
+Un volumen encriptado (como los de TrueCrypt)
+{
+  ~No puede usarse en otro ordenador, aunque tengan el mismo sistema operativo
+  ~Puede usarse en más de un ordenador, si tienen el mismo sistema operativo
+  =Puede usarse en más de un ordenador, incluso con distintos sistemas operativos
+  ~Puede usarse solamente en el ordenador donde se creo, siempre que no se cambie el sistema operativo
+}
+
+Los registros de monitorización en Windows
+{
+  ~Se consultan en el registro de windows (con regedit32)
+  ~Se consultan en el directorio C:\windows\log
+  ~Se consultan en el directorio C:\windows\system\drivers\var\log
+  =Se consultan en el visor de sucesos (event viewer)
+}
+
+Los registros de monitorización en Debian Linux
+{
+  ~Se consultan con el comando tail
+  ~Se consultan con el comando eview
+  =Se consultan en el directorio /var/log
+  ~Se consultan en el fichero /var/log/syslog
+}
+

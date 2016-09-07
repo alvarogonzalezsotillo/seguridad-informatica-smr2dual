@@ -1,0 +1,24 @@
+Si un límite de un sistema de cuotas es "blando"
+{
+  ~Es un límite pequeño, de forma que no afecte mucho a los otros usuarios
+  =Es el límite que puede sobrepasarse, y al hacerlo se recibe algún tipo de aviso
+  ~Es un límite grande, de forma que no afecte mucho al usuario que lo tiene
+  ~Es un límite que no puede sobrepasarse, pero se recibe un aviso antes de llegar a él
+}
+
+Las cuotas de disco mejoran
+{
+  ~La integridad
+  ~La confidencialidad
+  =La disponibilidad
+  ~La cualidad de no repudio
+}
+
+Las cuotas de disco no tienen efecto
+{
+  =Si el límite que imponen es superior al tamaño del disco
+  ~Si el límite soft (blando) es distinto al límite hard (duro)
+  ~Si el límite soft (blando) es inferior al límite hard (duro)
+  ~Si el límite que imponen es inferior al tamaño del disco
+}
+
