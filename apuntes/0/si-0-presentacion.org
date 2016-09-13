@@ -44,6 +44,8 @@
 - Uso de los ordenadores
   - No pueden utilizarse para tareas distintas de las encargadas por el profesor
   - Se respetará a otros alumnos
+- Móviles
+  - No. Punto pelota.
 
 ** Averías de los ordenadores
 - Los problemas se comunican al profesor en cuanto se detectan
@@ -81,6 +83,6 @@ La mayor de:
   * Examen final
 #+end_src
 
-- Las notas pueden calcularse con [[file:calculo-notas/calculo-notas.html][el calculador de notas.]]
+- Las notas pueden calcularse con [[file:calculo-notas/calculo-notas.html?evaluaciones=2][el calculador de notas.]]
 
 
