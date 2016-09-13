@@ -7,6 +7,7 @@
 * Cómo serán las clases
 + Teoría
   - Basada en apuntes
+  - Con un libro de referencia
 + Ejercicios
   - Se realizan en clase o en casa
   - Se ponen en común al día siguiente
@@ -19,6 +20,7 @@
 + Correo electrónico
 + Acceso a Internet fuera del aula
 + Portátil propio (opcional)
+  - No se puede usar la red del centro 
 
 ** Libro de referencia
 + Seguridad Informática
@@ -45,7 +47,8 @@
   - No pueden utilizarse para tareas distintas de las encargadas por el profesor
   - Se respetará a otros alumnos
 - Móviles
-  - No. Punto pelota.
+  - No.
+  - Un /smartwatch/ se considera un móvil.
 
 ** Averías de los ordenadores
 - Los problemas se comunican al profesor en cuanto se detectan
