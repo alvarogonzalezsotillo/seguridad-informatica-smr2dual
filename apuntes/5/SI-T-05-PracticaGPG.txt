@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+1. Importa la clave pública del profesor en tu base de datos de claves, con --import
+
+2. Comprueba cual(es) de los siguientes ficheros es el que ha firmado el profesor con la firma MensajeCifrado.PNG.sig, con --verify
+
+3. Modifica el nivel de confianza que tienes en la firma del profesor, con --edit-key. Después, comprueba que --verify ya no emite mensajes de aviso que duden de la firma.
+
+4. Confirma que el fichero MensajeCifrado.PNG.gpg es ilegible (por ejemplo, intenta abrirlo con GIMP en Linux o Paint en Windows. Después, desencriptalo con --decrypt.
+
+5. Crea tu propia clave pública y privada con --gen-key. Utiliza tu nombre real y tu dirección de correo Gmail. Utiliza como passphrase la habitual, "alumno".
+
+6. Exporta la clave pública recién creada con --export <nombre>. Graba la clave con --output en un fichero que se llame <nombre>.clave
+
+7. Descarga o crea una imagen pequeña, y encriptala con --encrypt (usando tu propia clave)
+
+8. Firma la imagen anterior con --detach-sign (usando tu propia clave)
+
+9. Comprueba que has firmado y encriptado correctamente el fichero. Para ello, envía a un compañero la imagen encriptada, la firma y la clave pública, y pídele que repita los ejercicios 1, 2 y 4 con tus ficheros.
+
+10. Sube al moodle un fichero ZIP con una memoria de los ejercicios 1 a 8, y los ficheros del ejercicio 9.
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iF4EAREIAAYFAlLqOh8ACgkQs+WnFl6koFL0BgEAkWah8Nt3y/BTO2MvVC80nvvM
+fHvC6DhQrlx+1fzEUHgA/A3sfzEQJTHU3SWSyDubQkIOSFk9eWeEb8jdfMkcnZ7p
+=3CFt
+-----END PGP SIGNATURE-----
