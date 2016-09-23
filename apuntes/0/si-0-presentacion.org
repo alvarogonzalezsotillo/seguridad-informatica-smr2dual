@@ -31,7 +31,7 @@
 
 * Entrega de Trabajos
 - Via *Moodle*
-  + Nuestro curso es http://aulavirtual2.educa.madrid.org/course/view.php?id=9397
+  + Nuestro curso es http://aulavirtual2.educa.madrid.org/course/view.php?id=19438
   + El curso es accesible incluso sin usuario
 - Se utilizará Microsoft Office (*DOC*, *DOCX*)
   + Opcionalmente, *PDF* o LibreOffice (*ODT*)
