@@ -76,7 +76,7 @@
 ** Cálculo de la nota
 - Nota de la evaluación
 #+begin_src notas
-trabajos*0.30 + actitud*0.05 + exámenes*0.65
+trabajos*0.30 + actitud*0.10 + exámenes*0.60
 #+END_SRC
 
 - Nota de exámenes
