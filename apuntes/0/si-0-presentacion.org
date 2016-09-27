@@ -89,3 +89,56 @@ La mayor de:
 - Las notas pueden calcularse con [[file:calculo-notas/calculo-notas.html?evaluaciones=2][el calculador de notas.]]
 
 
+
+* Criterios de evaluación
+
+REAL DECRETO 1691/2007, de 14 de diciembre, por el que se establece el título de Técnico en Sistemas Microinformáticos y Redes y se fijan sus enseñanzas mínimas.
+
+** Aplica medidas de seguridad pasiva en sistemas informáticos describiendo características de entornos y relacionándolas con sus necesidades.
+-  Se ha valorado la importancia de mantener la información segura.
+-  Se han descrito las diferencias entre seguridad física y lógica. 
+-  Se han definido las características de la ubicación física y condiciones ambientales de los equipos y servidores.
+-  Se ha identificado la necesidad de proteger físicamente los sistemas informáticos. 
+-  Se ha verificado el funcionamiento de los sistemas de alimentación ininterrumpida. 
+-  Se han seleccionado los puntos de aplicación de los sistemas de alimentación ininterrumpida. 
+-  Se han esquematizado las características de una política de seguridad basada en listas de control de acceso.
+-  Se ha valorado la importancia de establecer una política de contraseñas. 
+-  Se han valorado las ventajas que supone la utilización de sistemas biométricos.
+
+** Gestiona dispositivos de almacenamiento describiendo los procedimientos efectuados y aplicando técnicas para asegurar la integridad de la información.
+-  Se ha interpretado la documentación técnica relativa a la política de almacenamiento.
+-  Se han tenido en cuenta factores inherentes al almacenamiento de la información (rendimiento, disponibilidad, accesibilidad, entre otro- .
+-  Se han clasificado y enumerado los principales métodos de almacenamiento incluidos los sistemas de almacenamiento en red.
+-  Se han descrito las tecnologías de almacenamiento redundante y distribuido.
+-  Se han seleccionado estrategias para la realización de copias de seguridad.
+-  Se ha tenido en cuenta la frecuencia y el esquema de rotación.
+-  Se han realizado copias de seguridad con distintas estrategias.
+-  Se han identificado las características de los medios de almacenamiento remotos y extraíbles.
+-  Se han utilizado medios de almacenamiento remotos y extraíbles.
+-  Se han creado y restaurado imágenes de respaldo de sistemas en funcionamiento.
+
+** Aplica mecanismos de seguridad activa describiendo sus características y relacionándolas con las necesidades de uso del sistema informático.
+-  Se han seguido planes de contingencia para actuar ante fallos de seguridad.
+-  Se han clasificado los principales tipos de software malicioso.
+-  Se han realizado actualizaciones periódicas de los sistemas para corregir posibles vulnerabilidades. 
+-  Se ha verificado el origen y la autenticidad de las aplicaciones que se instalan en los sistemas. 
+-  Se han instalado, probado y actualizado aplicaciones específicas para la detección y eliminación de software malicioso. 
+-  Se han aplicado técnicas de recuperación de datos.
+
+** Asegura la privacidad de la información transmitida en redes informáticas describiendo vulnerabilidades e instalando software especifico.
+-  Se ha identificado la necesidad de inventariar y controlar los servicios de red.
+-  Se ha contrastado la incidencia de las técnicas de ingeniería social en los fraudes informáticos y robos de información.
+-  Se ha deducido la importancia de minimizar el volumen de tráfico generado por la publicidad y el correo no deseado. 
+-  Se han aplicado medidas para evitar la monitorización de redes cableadas. 
+-  Se han clasificado y valorado las propiedades de seguridad de los protocolos usados en redes inalámbricas. 
+-  Se han descrito sistemas de identificación como la firma electrónica, certificado digital, entre otros. 
+-  Se han utilizado sistemas de identificación como la firma electrónica, certificado digital, entre otros. 
+-  Se ha instalado y configurado un cortafuegos en un equipo o servidor.
+
+** Reconoce la legislación y normativa sobre seguridad y protección de datos analizando las repercusiones de su incumplimiento.
+-  Se ha descrito la legislación sobre protección de datos de carácter personal.
+-  Se ha determinado la necesidad de controlar el acceso a la información personal almacenada.
+-  Se han identificado las figuras legales que intervienen en el tratamiento y mantenimiento de los ficheros de datos. 
+-  Se ha contrastado la obligación de poner a disposición de las personas los datos personales que les conciernen. 
+-  Se ha descrito la legislación actual sobre los servicios de la sociedad de la información y comercio electrónico. 
+-  Se han contrastado las normas sobre gestión de seguridad de la información.
