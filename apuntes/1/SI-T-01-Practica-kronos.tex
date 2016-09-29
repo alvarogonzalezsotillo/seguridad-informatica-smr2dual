@@ -1,0 +1,96 @@
+\input{../common/plantilla-ejercicio.tex}
+\usepackage{eurosym}
+
+\graphicspath{{./},{09/}}
+
+\newcommand{\nombreprogramaeventos}{Gestieven}
+\newcommand{\nombreempresa}{Kronos}
+\renewcommand{\hmwkTitle}{Análisis de riesgos \nombreempresa}
+
+
+\usepackage{blindtext}
+
+\begin{document}
+
+% \maketitle
+
+% ----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+% ----------------------------------------------------------------------------------------
+
+% \setcounter{tocdepth}{1} % Uncomment this line if you don't want subsections listed in the ToC
+
+\primerapagina
+
+
+\section{Enunciado}
+
+La empresa {\nombreempresa} S.A. Se dedica a la organización de eventos. Por ejemplo, organizan fiestas de presentación de productos, desfiles de moda, joyería, grandes actos públicos, como festivales musicales, representaciones teatrales en fiestas de grandes ciudades, etc.
+
+En su sede central, situada en una céntrica calle de Madrid, diponen de unas instalaciones con varios despachos. En la oficina trabajan varios representantes, cuya función principal es estar en contacto con proveedores y clientes, para terminar de organizar el evento.
+
+Cada evento es único, así que el trabajo humano es fundamental, pero las nuevas tecnologías ayudan a estar en contacto.
+
+Cada representante puede conectarse a la red wifi de la empresa con su portatil. En esa red, que es privada, existe una aplicación (llamada {\nombreprogramaeventos}) en la que se almacenan los datos de clientes, eventos y proveedores. A dicha aplicación se accede con un navegador (es decir, es una Aplicación web), pero el servidor es privado.
+Para acceder a dicha aplicación, es necesario estar conectado a la wifi de la oficina (no se accede desde Internet) y además introducir un nombre de usuario y una contraseña. Un representante tiene acceso a los datos de sus eventos y de sus clientes, a los datos de todos los proveedores, y a la información de eventos ya realizados y los clientes que los encargaron, así como a los datos del representante que gestionó el evento.
+
+Para mayor comodidad de los representantes, la red wifi permite también el acceso a internet... pero supuestamente, desde Internet no se puede acceder a la aplicación de {\nombreprogramaeventos}.
+
+Un día, un comercial estaba tranquilamente trabajando con su portátil... había iniciado sesión en {\nombreprogramaeventos}, y estaba revisando algunos de los datos a los que estaba autorizado a ver. De repente, se encendió la luz de la webcam. Ésta se puso en marcha. También observó que aparecía en la barra de windows, durante un par de segundos el nombre de un programa que desconocía.
+
+Pasó el tiempo y el incidente fue tomado simplemente como una anécdota sospechosa. Pero, al cabo de un par de semanas, un cliente llamó a nuestro representante y le informó de que cancelaba un evento importante, cuyos detalles eran supuestamente secretos porque se había puesto en contacto con él otro representante de otra empresa ofreciéndole la realización del evento a menor coste. Este nuevo representante conocía detalles que sólo en {\nombreempresa} S.A. debían saber.
+
+El proyecto cancelado iba a ser facturado por unos 720000{\euro}. Después de pagar a proveedores y después de impuestos, el beneficio neto para la empresa sería de unos 65000{\euro}, de los cuales, el 10\% supondría una jugosa comisión para el representante.
+
+El cliente no cedió el proyecto a la otra empresa de eventos, sino que lo canceló por completo: si poca confianza le inspiraba {\nombreempresa}, menos confianza le inspiraba otra empresa que intentaba llevarse el contrato del evento.
+
+El incidente alarmó a la gerencia de la empresa, que nos encarga que estudiemos el caso, para que no vuelva a ocurrir que alguien de la competencia intenta llevarse un evento... y no sólo eso, sino evitar la falta de credibilidad que va a tener durante un tiempo ésta empresa.
+
+\subsection{Parte 1: Análisis de riesgos}
+
+
+\begin{itemize}
+\item Realiza un análisis de riesgos de éste caso, siguiendo el esquema que conoces del análisis.
+\item Plásmalo en un documento hecho con tu procesador de textos favorito.
+\item Recuerda que en un análisis de riesgos:
+  \begin{itemize}
+  \item Identificamos elementos relacionados con el ataque (si se hubiera producido, o con el supuesto ataque en    caso de un temor)
+  \item Amenazas, riesgos, activos implicados, vulnerabilidades de cada activo a las amenazas
+  \item Describimos el impacto del ataque (si se hubiera producido) o de las posibles amanezas en caso de que se materializasen
+  \item Describimos las actividades de negocio afectadas y en qué medida
+  \item Describimos el objetivo de quien nos encarga el análisis (¿qué queremos lograr?)
+  \item Enumeramos las medidas de seguridad que existen y evaluamos su eficacia
+  \item Proponemos soluciones (medidas de seguridad), de manera ordenada, con descripción de las bondades de ésta, sus costes (iniciales y de mantenimiento).
+  \item Sugerimos el conjunto de medidas de seguridad que pensamos más adecuado adecuado de entre las aportadas.
+  \end{itemize}
+\item Recuerda que un análisis de riesgos es un documento técnico, con el estudio de un caso por parte de un profesional: tú, dirigido a una o varias personas implicadas en la gerencia de una empresa u organización.
+\item Aun no estamos en codiciones de proponer las cosas con mucho detalle técnico, pero nadie va a cuestionar tus aportes en materia de medidas de seguridad. Tan sólo, que el análisis sea correcto en sus formas.
+\end{itemize}
+
+\subsection{Parte 2: Políticas de seguridad.}
+
+Con tus soluciones aportadas en el análisis de riesgos
+¿Hay alguna norma de seguridad que quieras que los empleados de {\nombreempresa} cumplan? 
+Si es así, detállala en el cuadro de notas que hay al final de éste ejercicio.
+Con una o dos líneas por cada cosa que sugieras es suficiente... Si no es necesario tener en cuenta ninguna consideración adicional que deba ser conocida por el personal de {\nombreempresa}, indícalo también, mencionando que no es necesario incluir ninguna política de seguridad nueva.
+
+Recuerda que son normas dirigidas a personal no técnico: lenguaje sencillo y claro. La gerencia de la empresa lo leerá y si aprueba nuestras sugerencias, se incluirán en el documento de Políticas de Seguridad de la empresa.
+
+Esta parte del trabajo son apenas unas líneas.
+
+Ya sabes que se valorará
+\begin{itemize}
+\item Que incluyas todos los apartados del análisis de riesgos, sin salirse demasiado del caso expuesto.
+\item Que lo que pongas en cada apartado, pertenezca, en efecto a él
+\item Que esté correctamente redactado como para que nuestro lector lo entienda:
+\item El lector de un análisis de riesgos es alguien de la gerencia de la empresa, que debe decidir sobre gastar dinero en medidas de seguridad.
+\end{itemize}
+Indicaciones para la entrega:
+\begin{itemize}
+\item El ejercicio se realizará y entregará de manera individual.
+\item Entrega tu trabajo en formato de Word (de Microsoft Office) o Write (de OpenOffice). Si quieres utilizar otro formato, consúltame antes.
+\item Sube el documento al sistema, y cuando ya lo tengas, márcalo para el envío. Si no haces esta operación, yo no recibiré indicación de que has enviado tu trabajo.
+\item Si quieres hacer alguna anotación u observación, edita las notas.
+\item Presta atención al plazo de entrega (con fecha y hora).
+\end{itemize}
+\end{document}
