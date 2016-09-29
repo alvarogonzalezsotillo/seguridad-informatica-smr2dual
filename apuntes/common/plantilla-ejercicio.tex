@@ -1,0 +1,346 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Programming/Coding Assignment
+% LaTeX Template
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Original author:
+% Ted Pavlic (http://www.tedpavlic.com)
+%
+% Note:
+% The \lipsum[#] commands throughout this template generate dummy text
+% to fill the template out. These commands should all be removed when 
+% writing assignment content.
+%
+% This template uses a Perl script as an example snippet of code, most other
+% languages are also usable. Configure them in the "CODE INCLUSION 
+% CONFIGURATION" section.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{listingsutf8}
+\usepackage[spanish]{babel}
+
+
+
+
+\usepackage{fancyhdr} % Required for custom headers
+\usepackage{lastpage} % Required to determine the last page for the footer
+\usepackage{extramarks} % Required for headers and footers
+\usepackage[usenames,dvipsnames]{color} % Required for custom colors
+\usepackage{graphicx} % Required to insert images
+\usepackage{listings} % Required for insertion of code
+\usepackage{courier} % Required for the courier font
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{svg}
+\usepackage{attachfile}
+\usepackage{currfile}
+\usepackage{multicol}
+\usepackage{alltt}
+\usepackage{framed}
+
+\hypersetup{
+colorlinks,
+citecolor=black,
+filecolor=black,
+linkcolor=black,
+urlcolor=blue
+}
+
+
+% Margins
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1.1} % Line spacing
+
+% Set up the header and footer
+\pagestyle{fancy}
+%\lhead{\hmwkAuthorName} % Top left header
+\lhead{\hmwkClass}
+\rhead{\hmwkTitle} % Top right header
+\chead{} % Top center head
+\lfoot{\lastxmark} % Bottom left footer
+\cfoot{} % Bottom center footer
+\rfoot{ \thepage\ / \protect\pageref{LastPage}} % Bottom right footer
+\renewcommand\headrulewidth{0.4pt} % Size of the header rule
+\renewcommand\footrulewidth{0.4pt} % Size of the footer rule
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+%----------------------------------------------------------------------------------------
+%	CODE INCLUSION CONFIGURATION
+%----------------------------------------------------------------------------------------
+
+\definecolor{MyDarkGreen}{rgb}{0.0,0.4,0.0} % This is the color used for comments
+\lstloadlanguages{Perl} % Load Perl syntax for listings, for a list of other languages supported see: ftp://ftp.tex.ac.uk/tex-archive/macros/latex/contrib/listings/listings.pdf
+\lstset{language=Perl, % Use Perl in this example
+frame=single, % Single frame around code
+basicstyle=\small\ttfamily, % Use small true type font
+keywordstyle=[1]\color{Blue}\bf, % Perl functions bold and blue
+keywordstyle=[2]\color{Purple}, % Perl function arguments purple
+keywordstyle=[3]\color{Blue}\underbar, % Custom functions underlined and blue
+identifierstyle=, % Nothing special about identifiers                                         
+commentstyle=\usefont{T1}{pcr}{m}{sl}\color{MyDarkGreen}\small, % Comments small dark green courier font
+stringstyle=\color{Purple}, % Strings are purple
+showstringspaces=false, % Don't put marks in string spaces
+tabsize=5, % 5 spaces per tab
+%
+% Put standard Perl functions not included in the default language here
+morekeywords={rand},
+%
+% Put Perl function parameters here
+morekeywords=[2]{on, off, interp},
+%
+% Put user defined functions here
+morekeywords=[3]{test},
+%
+morecomment=[l][\color{Blue}]{...}, % Line continuation (...) like blue comment
+numbers=left, % Line numbers on left
+firstnumber=1, % Line numbers start with line 1
+numberstyle=\tiny\color{Blue}, % Line numbers are blue and small
+stepnumber=5 % Line numbers go in steps of 5
+}
+
+% Creates a new command to include a perl script, the first parameter is the filename of the script (without .pl), the second parameter is the caption
+\newcommand{\perlscript}[2]{
+\begin{itemize}
+\item[]\lstinputlisting[caption=#2,label=#1]{#1.pl}
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT STRUCTURE COMMANDS
+%	Skip this unless you know what you're doing
+%----------------------------------------------------------------------------------------
+
+% Header and footer for when a page split occurs within a problem environment
+\newcommand{\enterProblemHeader}[1]{
+%\nobreak\extramarks{#1}{#1 continued on next page\ldots}\nobreak
+%\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak
+}
+
+% Header and footer for when a page split occurs between problem environments
+\newcommand{\exitProblemHeader}[1]{
+%\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak
+%\nobreak\extramarks{#1}{}\nobreak
+}
+
+\setcounter{secnumdepth}{0} % Removes default section numbers
+\newcounter{homeworkProblemCounter} % Creates a counter to keep track of the number of problems
+
+\newcommand{\homeworkProblemName}{}
+\newenvironment{homeworkProblem}[1][]{ % Makes a new environment called homeworkProblem which takes 1 argument (custom name) but the default is "Problem #"
+\stepcounter{homeworkProblemCounter} % Increase counter for number of problems
+\renewcommand{\homeworkProblemName}{Ejercicio \arabic{homeworkProblemCounter} #1} % Assign \homeworkProblemName the name of the problem
+\section{\homeworkProblemName} % Make a section in the document with the custom problem count
+\enterProblemHeader{\homeworkProblemName} % Header and footer within the environment
+}{
+\exitProblemHeader{\homeworkProblemName} % Header and footer after the environment
+%\clearpage
+}
+
+
+\newcommand{\problemAnswer}[1]{ % Defines the problem answer command with the content as the only argument
+\noindent\framebox[\columnwidth][c]{\begin{minipage}{0.98\columnwidth}#1\end{minipage}} % Makes the box around the problem answer and puts the content inside
+}
+
+\newcommand{\homeworkSectionName}{}
+\newenvironment{homeworkSection}[1]{ % New environment for sections within homework problems, takes 1 argument - the name of the section
+\renewcommand{\homeworkSectionName}{#1} % Assign \homeworkSectionName to the name of the section from the environment argument
+\subsection{\homeworkSectionName} % Make a subsection with the custom name of the subsection
+\enterProblemHeader{\homeworkProblemName\ [\homeworkSectionName]} % Header and footer within the environment
+}{
+\enterProblemHeader{\homeworkProblemName} % Header and footer after the environment
+}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CLASS SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\hmwkTitle}{Redefine el hmwkTitle} % Assignment title
+\newcommand{\hmwkDueDate}{asdfadsf} % Due date
+\newcommand{\hmwkClass}{Programación 1º DAW} % Course/class
+\newcommand{\hmwkClassTime}{} % Class/lecture time
+\newcommand{\hmwkClassInstructor}{} % Teacher/lecturer
+\newcommand{\hmwkAuthorName}{Álvaro González Sotillo} % Your name
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title{
+\vspace{2in}
+\textmd{\textbf{\hmwkClass:\ \hmwkTitle}}\\
+\vspace{0.1in}\large{\textit{\hmwkClassInstructor\ \hmwkClassTime}}
+\vspace{3in}
+}
+
+\author{\textbf{\hmwkAuthorName}}
+\date{} % Insert date here if you want it to appear below your name
+
+
+%----------------------------------------------------------------------------------------
+
+\usepackage{fancybox}
+\newcommand{\codigo}[1]{\texttt{#1}}
+
+
+% CUADRITO
+\newsavebox{\fmboxx}
+\newenvironment{cuadrito}[1][14cm]
+{\noindent \begin{center} \begin{lrbox}{\fmboxx}\noindent\begin{minipage}{#1}}
+{\end{minipage}\end{lrbox}\noindent\shadowbox{\usebox{\fmboxx}} \end{center}}
+
+
+
+
+
+\newenvironment{entradasalida}[2][14cm]
+{
+  \newcommand{\elnombredelafiguradeentradasalida}{#2}
+  \begin{figure}[h]
+    \begin{cuadrito}[#1]
+      \begin{scriptsize}
+\begin{alltt}
+}
+{%
+\end{alltt}%
+      \end{scriptsize}%
+    \end{cuadrito}%
+    \caption{\elnombredelafiguradeentradasalida}
+  \end{figure}
+}
+
+
+\newenvironment{entradasalidacols}[2][14cm]
+{
+\newcommand{\elnombredelafiguradeentradasalida}{#2}
+%\begin{wrapfigure}{}{0.1}
+\begin{cuadrito}[#1]
+\begin{scriptsize}
+\begin{alltt}
+}
+{
+\end{alltt}
+\end{scriptsize}
+\end{cuadrito}
+\captionof{figure}{\elnombredelafiguradeentradasalida}
+%\end{wrapfigure}
+}
+
+
+\newcommand{\ficheroautoref}[0]{
+
+\attachfile[mimetype=text/plain,
+description={La plantilla},
+subject={La plantilla}]
+{../common/plantilla-ejercicio.tex}
+
+\attachfile[mimetype=text/plain,
+description={El fichero TEX original para crear este documento, no sea que se nos pierda},
+subject={El fichero TEX original para crear este documento, no sea que se nos pierda}]
+{\currfilename}}
+
+\newcommand{\entradausuario}[1]{\textit{\textbf{#1}}}
+
+\newcommand{\enlace}[2]{\textcolor{blue}{{\href{#1}{#2}}}}
+
+\newcommand{\adjuntarfichero}[3]{
+\textattachfile[mimetype=text/plain,
+color={0 0 0},
+description={#3},
+subject={#1}]
+{#1}
+{\textcolor{blue}{\codigo{#2}}}
+}
+
+\newcommand{\adjuntardoc}[2]{
+\textattachfile[mimetype=text/plain,
+color={0 0 0},
+description={#1},
+subject={#1}]
+{#1}
+{\textcolor{blue}{#2}}
+}
+
+
+\newcommand{\plantilladeclase}[2]{
+\adjuntarfichero{#1.java}{#2}{Plantilla para la clase #2}
+}
+
+\lstset{
+  literate=%
+    {á}{{\'a}}1
+    {é}{{\'e}}1
+    {í}{{\'i}}1
+    {ó}{{\'o}}1
+    {ú}{{\'u}}1
+    {Á}{{\'A}}1
+    {É}{{\'E}}1
+    {Í}{{\'Y}}1
+    {Ó}{{\'O}}1
+    {Ú}{{\'U}}1
+}
+
+\renewcommand{\lstlistingname}{Listado}
+\captionsetup[lstlisting]{font={footnotesize},labelfont=bf,position=bottom}
+\captionsetup[figure]{font={footnotesize},labelfont=bf}
+\lstnewenvironment{listadojava}[1]
+{
+  \lstset{captionpos=b,caption={#1},language=Java,frame=single,basicstyle=\footnotesize\ttfamily,showstringspaces=false,numbers=left,xleftmargin=2em}
+}
+{
+}
+
+% LISTADO SHELL
+\lstnewenvironment{listadoshell}[2][]
+{
+  \lstset{captionpos=b,caption={#2},label={#1},language=bash,frame=single,basicstyle=\scriptsize\ttfamily,showstringspaces=false,numbers=none}
+}
+{
+}
+
+% LISTADO TXT
+\lstnewenvironment{listadotxt}[2][]
+{
+  \lstset{inputencoding=utf8,captionpos=b,caption={#2},label={#1},frame=single,basicstyle=\scriptsize\ttfamily,showstringspaces=false,numbers=none}
+}
+{
+}
+
+
+\newcommand{\graficosvg}[3][14cm]{
+\begin{figure}[htbp]
+\centering
+\textattachfile{#2.svg}{
+\color{black}
+\includesvg[width=#1]{#2}
+}
+\caption{#3}
+\end{figure}
+}
+
+
+\newcommand{\graficosvguml}[3][7cm]{
+  \texttt{\graficosvg[#1]{#2}{#3}}
+}
+
+
+\newcommand{\primerapagina}{
+\newpage
+\ficheroautoref
+\tableofcontents
+\newpage
+}
