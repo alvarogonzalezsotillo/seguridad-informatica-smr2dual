@@ -3,3 +3,8 @@ examenes
 evaluacion
 cuestionarios
 estaba-en-los-pcs
+*.aux
+*.log
+*.synctex.gz
+*.toc
+
