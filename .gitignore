@@ -9,3 +9,5 @@ estaba-en-los-pcs
 *.toc
 
 *.out
+*.el
+/apuntes/7/~$-T-07-Redes Seguras.docx
