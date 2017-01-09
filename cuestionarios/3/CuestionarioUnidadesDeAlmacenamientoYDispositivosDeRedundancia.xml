@@ -205,7 +205,7 @@
     <name><text>Cinta HP en rack</text>
 </name>
     <questiontext format="html">
-<text><![CDATA[Finalmente, y como no podía ser menos, también hay dispositivos de copia de seguridad en cinta HP ultrium en formato rack.<br /><br />Fíjate en todos los modelos en <a href="http://h10010.www1.hp.com/wwpc/es/es/sm/WF25a/12169-304612-64456-64456-64456-434185.html" target="_blank">kit para rack de cinta de HP</a><br /><br /><img align="left" vspace="0" hspace="0" border="0" style="width: 209px; height: 209px;" title="hp ultrium" alt="hp ultrium" src="http://portal.iesjovellanos.org/moodle/file.php/330/img/c02474128.jpg" /><br /><br />¿Qué tipos de interfaz tienen para su conexión?<br /><br clear="all" />]]></text>
+<text><![CDATA[Finalmente, y como no podía ser menos, también hay dispositivos de copia de seguridad en cinta HP ultrium en formato rack.<br /><br />Fíjate en todos los modelos en <a href="http://h10010.www1.hp.com/wwpc/es/es/sm/WF25a/12169-304612-64456-64456-64456-434185.html" target="_blank">kit para rack de cinta de HP</a><br /><br /><img align="left" vspace="0" hspace="0" border="0" style="width: 209px; height: 209px;" title="hp ultrium" alt="hp ultrium" src="https://alvarogonzalezsotillo.github.io/seguridad-informatica-smr2dual/cuestionarios/3/c02474128.jpg" /><br /><br />¿Qué tipos de interfaz tienen para su conexión?<br /><br clear="all" />]]></text>
     </questiontext>
     <image></image>
     <generalfeedback>
@@ -332,7 +332,7 @@ Profeeeeeee.... no lo encuentroooooooooooooooo
         </text>
       <feedback>
           <text>
-<![CDATA[ <img vspace="0" hspace="0" border="0" src="http://portal.iesjovellanos.org/moodle/file.php/330/img/50252_88169668551_2337_n.jpg" alt="fu" title="fu" /><br /> ]]>
+<![CDATA[ <img vspace="0" hspace="0" border="0" src="https://alvarogonzalezsotillo.github.io/seguridad-informatica-smr2dual/cuestionarios/3/50252_88169668551_2337_n.jpg" alt="fu" title="fu" /><br /> ]]>
           </text>
       </feedback>
     </answer>
@@ -345,7 +345,7 @@ Profeeeeeee.... no lo encuentroooooooooooooooo
     <name><text>protocolos de servicio de ficheros en NAS</text>
 </name>
     <questiontext format="html">
-<text><![CDATA[<img align="left" width="180" vspace="0" hspace="0" height="280" border="0" src="http://portal.iesjovellanos.org/moodle/file.php/330/img/carcasas-disco-duro-dlink-nas-2-bahias-sata-ii-1g.jpg" alt="dlink sharecenter" title="dlink sharecenter" />Si me compro el dispositivo del que hemos hablado (<a href="http://www.appinformatica.com/carcasas-disco-duro-dlink-nas-2-bahias-sata-ii.php" target="_blank">DLINK Sharecenter Pulse</a>) y lo conecto a una red GigaBit Ethernet, como es un dispositivo NAS será capaz de servirme ficheros.... Otros ordenadores en la misma red lo &quot;verán&quot; como si fuera un ordenador... capaz de servir ficheros... pero ¿Qué protocolos es capaz de proporcionar?<br />]]></text>
+<text><![CDATA[<img align="left" width="180" vspace="0" hspace="0" height="280" border="0" src="https://alvarogonzalezsotillo.github.io/seguridad-informatica-smr2dual/cuestionarios/3/carcasas-disco-duro-dlink-nas-2-bahias-sata-ii-1g.jpg" alt="dlink sharecenter" title="dlink sharecenter" />Si me compro el dispositivo del que hemos hablado (<a href="http://www.appinformatica.com/carcasas-disco-duro-dlink-nas-2-bahias-sata-ii.php" target="_blank">DLINK Sharecenter Pulse</a>) y lo conecto a una red GigaBit Ethernet, como es un dispositivo NAS será capaz de servirme ficheros.... Otros ordenadores en la misma red lo &quot;verán&quot; como si fuera un ordenador... capaz de servir ficheros... pero ¿Qué protocolos es capaz de proporcionar?<br />]]></text>
     </questiontext>
     <image></image>
     <generalfeedback>
@@ -420,7 +420,7 @@ SMS
         </text>
       <feedback>
           <text>
-<![CDATA[ <br /><img vspace="0" hspace="0" border="0" title="rage" alt="rage" src="http://portal.iesjovellanos.org/moodle/file.php/330/img/ffffuuu.jpg" /><br /> ]]>
+<![CDATA[ <br /><img vspace="0" hspace="0" border="0" title="rage" alt="rage" src="https://alvarogonzalezsotillo.github.io/seguridad-informatica-smr2dual/cuestionarios/3/ffffuuu.jpg" /><br /> ]]>
           </text>
       </feedback>
     </answer>
@@ -433,7 +433,7 @@ SMS
     <name><text>Servidor Nas SoHo</text>
 </name>
     <questiontext format="html">
-<text><![CDATA[He encontrado éste pequeño servidor NAS (Network Attached Storage) en una tienda de informática doméstica y de pequeña oficina.<br /><img align="left" width="125" vspace="0" hspace="0" height="195" border="0" title="dlink nas" alt="dlink nas" src="http://portal.iesjovellanos.org/moodle/file.php/330/img/carcasas-disco-duro-dlink-nas-2-bahias-sata-ii-1g.jpg" style="width: 125px; height: 195px;" /><br />Se trata del <a target="_blank" href="http://www.appinformatica.com/carcasas-disco-duro-dlink-nas-2-bahias-sata-ii.php">DLINK Sharecenter Pulse</a>.<br /><br />He visto que viene vacío, pero en su interior tiene dos bahías de 3.5 para dos discos duros SATA.<br /><br />He visto que es capaz de monitorizar la salud de éstos discos mediante el sistema S.M.A.R.T.<br /><br />Pero no me ha quedado claro qué niveles de RAID tiene. ¿Me lo puedes decir?<br />]]></text>
+<text><![CDATA[He encontrado éste pequeño servidor NAS (Network Attached Storage) en una tienda de informática doméstica y de pequeña oficina.<br /><img align="left" width="125" vspace="0" hspace="0" height="195" border="0" title="dlink nas" alt="dlink nas" src="https://alvarogonzalezsotillo.github.io/seguridad-informatica-smr2dual/cuestionarios/3/carcasas-disco-duro-dlink-nas-2-bahias-sata-ii-1g.jpg" style="width: 125px; height: 195px;" /><br />Se trata del <a target="_blank" href="http://www.appinformatica.com/carcasas-disco-duro-dlink-nas-2-bahias-sata-ii.php">DLINK Sharecenter Pulse</a>.<br /><br />He visto que viene vacío, pero en su interior tiene dos bahías de 3.5 para dos discos duros SATA.<br /><br />He visto que es capaz de monitorizar la salud de éstos discos mediante el sistema S.M.A.R.T.<br /><br />Pero no me ha quedado claro qué niveles de RAID tiene. ¿Me lo puedes decir?<br />]]></text>
     </questiontext>
     <image></image>
     <generalfeedback>
@@ -501,7 +501,7 @@ RAID 6
     <name><text>Spare Disk</text>
 </name>
     <questiontext format="html">
-<text><![CDATA[<img width="350" vspace="0" hspace="0" height="250" border="0" align="left" src="http://portal.iesjovellanos.org/moodle/file.php/330/img/4big_Back_NEW.jpg" alt="LaCie Raid 5" title="LaCie Raid 5" />Observa que el <a href="http://www.lacie.com/es/products/product.htm?id=10601" target="_blank">LaCie 4big Quadra USB</a> tiene cuatro caddys (las bandejas donde se montan los discos), aunque cinco huecos.<br /><br />Si se configura con RAID 5, cuando un disco falla, el sistema se ponen en modo de emergencia y avisa para que se instale un disco de igual capacidad (o superior, aunque se aprovechara sólo la misma capacidad que el disco que se sustituye).<br /><br />No obstante, hay un quinto hueco <span style="font-weight: bold;">sin caddy</span> justo en el centro.<br /><br />En ese hueco se puede instalar un disco de reserva (spare disk), y en ese caso, en lugar de funcionar como RAID 5, se puede configurar el sistema como RAID 5E.<br />Es necesario comprar un caddy aparte (el <a target="_blank" href="http://www.lacie.com/es/products/product.htm?id=10314">LaCie 4big quadra spare drive</a>), que viene ya con un disco instalado <br /><br /><img vspace="0" hspace="0" border="0" align="right" style="width: 195px; height: 140px;" title="spare" alt="spare" src="http://portal.iesjovellanos.org/moodle/file.php/330/img/4bigSpare.jpg" />En el sistema RAID 5E... Este disco extra..... ¿Cómo funciona?<br />
+<text><![CDATA[<img width="350" vspace="0" hspace="0" height="250" border="0" align="left" src="https://alvarogonzalezsotillo.github.io/seguridad-informatica-smr2dual/cuestionarios/3/4big_Back_NEW.jpg" alt="LaCie Raid 5" title="LaCie Raid 5" />Observa que el <a href="http://www.lacie.com/es/products/product.htm?id=10601" target="_blank">LaCie 4big Quadra USB</a> tiene cuatro caddys (las bandejas donde se montan los discos), aunque cinco huecos.<br /><br />Si se configura con RAID 5, cuando un disco falla, el sistema se ponen en modo de emergencia y avisa para que se instale un disco de igual capacidad (o superior, aunque se aprovechara sólo la misma capacidad que el disco que se sustituye).<br /><br />No obstante, hay un quinto hueco <span style="font-weight: bold;">sin caddy</span> justo en el centro.<br /><br />En ese hueco se puede instalar un disco de reserva (spare disk), y en ese caso, en lugar de funcionar como RAID 5, se puede configurar el sistema como RAID 5E.<br />Es necesario comprar un caddy aparte (el <a target="_blank" href="http://www.lacie.com/es/products/product.htm?id=10314">LaCie 4big quadra spare drive</a>), que viene ya con un disco instalado <br /><br /><img vspace="0" hspace="0" border="0" align="right" style="width: 195px; height: 140px;" title="spare" alt="spare" src="https://alvarogonzalezsotillo.github.io/seguridad-informatica-smr2dual/cuestionarios/3/4bigSpare.jpg" />En el sistema RAID 5E... Este disco extra..... ¿Cómo funciona?<br />
 [<a href="http://manuals.lacie.com/es/manuals/4big-quadra-usb3/raid" target="_blank">Pista</a>]<br clear="all" />]]></text>
     </questiontext>
     <image></image>
@@ -628,7 +628,7 @@ NAS (Network Attached Storage - Almacenamiento conectado a red)
     <name><text>Capacidad Raid 0</text>
 </name>
     <questiontext format="html">
-<text><![CDATA[<img align="left" width="180" vspace="0" hspace="0" height="280" border="0" src="http://portal.iesjovellanos.org/moodle/file.php/330/img/carcasas-disco-duro-dlink-nas-2-bahias-sata-ii-1g.jpg" alt="dlink" title="dlink" />Sigamos con el ejemplo de <a href="http://www.appinformatica.com/carcasas-disco-duro-dlink-nas-2-bahias-sata-ii.php" target="_blank">éste dispositivo NAS</a>.<br /><br />Si utilizo RAID 0, sé que compromento la seguridad, a costa de obtener mayor velocidad, ya que el dispositivo intentará grabar dos sectores a la vez.<br /><br />¿Cuál será la capacidad total disponible en GigaBytes si monto dos discos SATA de 450 GB en RAID 0?<br /><br clear="all" />]]></text>
+<text><![CDATA[<img align="left" width="180" vspace="0" hspace="0" height="280" border="0" src="https://alvarogonzalezsotillo.github.io/seguridad-informatica-smr2dual/cuestionarios/3/carcasas-disco-duro-dlink-nas-2-bahias-sata-ii-1g.jpg" alt="dlink" title="dlink" />Sigamos con el ejemplo de <a href="http://www.appinformatica.com/carcasas-disco-duro-dlink-nas-2-bahias-sata-ii.php" target="_blank">éste dispositivo NAS</a>.<br /><br />Si utilizo RAID 0, sé que compromento la seguridad, a costa de obtener mayor velocidad, ya que el dispositivo intentará grabar dos sectores a la vez.<br /><br />¿Cuál será la capacidad total disponible en GigaBytes si monto dos discos SATA de 450 GB en RAID 0?<br /><br clear="all" />]]></text>
     </questiontext>
     <image></image>
     <generalfeedback>
@@ -659,7 +659,7 @@ NAS (Network Attached Storage - Almacenamiento conectado a red)
     <name><text>Capacidad Raid 1</text>
 </name>
     <questiontext format="html">
-<text><![CDATA[<img align="left" width="180" vspace="0" hspace="0" height="280" border="0" src="http://portal.iesjovellanos.org/moodle/file.php/330/img/carcasas-disco-duro-dlink-nas-2-bahias-sata-ii-1g.jpg" alt="dlink" title="dlink" />Si pongo dos discos de 450 GB cada uno y los configuro en RAID 1, sé que reduzco el riesgo de pérdida de datos debido a la vulnerabilidad de los discos duros por su vida limitada. Si uno de ellos falla, el sistema se pondrá en modo de emergencia, y seguirá funcionando a la espera de que se inserte un disco duro nuevo.<br /><br />Pero... ¿Qué capacidad total en GB tendrá el sistema si lo pongo en marcha con dos discos de 450 GB cada uno en RAID 1?<br />]]></text>
+<text><![CDATA[<img align="left" width="180" vspace="0" hspace="0" height="280" border="0" src="https://alvarogonzalezsotillo.github.io/seguridad-informatica-smr2dual/cuestionarios/3/carcasas-disco-duro-dlink-nas-2-bahias-sata-ii-1g.jpg" alt="dlink" title="dlink" />Si pongo dos discos de 450 GB cada uno y los configuro en RAID 1, sé que reduzco el riesgo de pérdida de datos debido a la vulnerabilidad de los discos duros por su vida limitada. Si uno de ellos falla, el sistema se pondrá en modo de emergencia, y seguirá funcionando a la espera de que se inserte un disco duro nuevo.<br /><br />Pero... ¿Qué capacidad total en GB tendrá el sistema si lo pongo en marcha con dos discos de 450 GB cada uno en RAID 1?<br />]]></text>
     </questiontext>
     <image></image>
     <generalfeedback>
@@ -690,7 +690,7 @@ NAS (Network Attached Storage - Almacenamiento conectado a red)
     <name><text>Capacidad RAID 5</text>
 </name>
     <questiontext format="html">
-<text><![CDATA[<img align="left" vspace="0" hspace="0"  border="0" src="http://portal.iesjovellanos.org/moodle/file.php/330/img/4big_Back_NEW.jpg" alt="LaCie Raid 5" title="LaCie Raid 5" />El <a href="http://www.lacie.com/es/products/product.htm?id=10601" target="_blank">LaCie 4big Quadra</a> es un dispositivo RAID externo para SoHo, que se conecta directamente a un servidor (Es decir, DAS - Direct Attached Storage) mediante eSATA o USB 3.0. En su interior se instalan hasta cinco discos SATA, que se pueden configurar mediante distintos niveles de RAID, entre ellos el 5.<br /><br />Recuerda que el RAID 5 calcula la paridad y la distribuye entre los discos (Recuerda... el espacio equivalente de uno de los discos se va en paridades... ). Así pues, si compro el modelo de 16 TB, que viene con 4 discos de 4TB cada uno, y lo configuro con RAID 5, la capacidad total del sistema medida en TB será de...<br /><br /><br /><br /><br />]]></text>
+<text><![CDATA[<img align="left" vspace="0" hspace="0"  border="0" src="https://alvarogonzalezsotillo.github.io/seguridad-informatica-smr2dual/cuestionarios/3/4big_Back_NEW.jpg" alt="LaCie Raid 5" title="LaCie Raid 5" />El <a href="http://www.lacie.com/es/products/product.htm?id=10601" target="_blank">LaCie 4big Quadra</a> es un dispositivo RAID externo para SoHo, que se conecta directamente a un servidor (Es decir, DAS - Direct Attached Storage) mediante eSATA o USB 3.0. En su interior se instalan hasta cinco discos SATA, que se pueden configurar mediante distintos niveles de RAID, entre ellos el 5.<br /><br />Recuerda que el RAID 5 calcula la paridad y la distribuye entre los discos (Recuerda... el espacio equivalente de uno de los discos se va en paridades... ). Así pues, si compro el modelo de 16 TB, que viene con 4 discos de 4TB cada uno, y lo configuro con RAID 5, la capacidad total del sistema medida en TB será de...<br /><br /><br /><br /><br />]]></text>
     </questiontext>
     <image></image>
     <generalfeedback>
@@ -725,7 +725,7 @@ NAS (Network Attached Storage - Almacenamiento conectado a red)
     <name><text>Capacidad cinta HP ultrium</text>
 </name>
     <questiontext format="html">
-<text><![CDATA[La cinta magnética es un dispositivo que aunque tiende a desaparecer poco a poco, todavía se sigue utilizando para copias de seguridad debido a su alta capacidad de almacenamiento con bajo coste por GB, y a su larga duración, así como a la capacidad de operar de manera desatendida.<br /> <br /> Existen varias tecnologías, incompatibles entre sí. <br /> <br /> <img width="219" vspace="0" hspace="0" height="219" align="left" border="0" src="http://portal.iesjovellanos.org/moodle/file.php/330/img/c02013425.jpg" alt="hp ultrium" title="hp ultrium" style="width: 219px; height: 219px;" />El modelo <a href="http://www8.hp.com/es/es/products/tape-drives-enclosures/index.html#!view=column&page=1" target="_blank">de cinta interna SAS HP StoreEver LTO-5 Ultrium 3000/Top Value
+<text><![CDATA[La cinta magnética es un dispositivo que aunque tiende a desaparecer poco a poco, todavía se sigue utilizando para copias de seguridad debido a su alta capacidad de almacenamiento con bajo coste por GB, y a su larga duración, así como a la capacidad de operar de manera desatendida.<br /> <br /> Existen varias tecnologías, incompatibles entre sí. <br /> <br /> <img width="219" vspace="0" hspace="0" height="219" align="left" border="0" src="https://alvarogonzalezsotillo.github.io/seguridad-informatica-smr2dual/cuestionarios/3/c02013425.jpg" alt="hp ultrium" title="hp ultrium" style="width: 219px; height: 219px;" />El modelo <a href="http://www8.hp.com/es/es/products/tape-drives-enclosures/index.html#!view=column&page=1" target="_blank">de cinta interna SAS HP StoreEver LTO-5 Ultrium 3000/Top Value
 (QR555AT),</a> para servidores SoHo en formato de 5.25&quot; ¿Qué capacidad máxima tiene en TeraBytes?<br clear="all" />
 Observa que la p&aacute;gina de destino tiene un montón de modelos (más de 50), y en esta pregunta buscamos la capacidad de uno concreto de ellos, un modelo externo en formato SoHo.<br> También hay internas para bah&iacute;as de 5.25&quot.<br>
 Y por increible que parezca, también las hay para montar en rack en <em>formato pizza box</em> y <em>blade</em>, pero a esas vamos a echarles un vistazo en las dos próximas preguntas.<br>
