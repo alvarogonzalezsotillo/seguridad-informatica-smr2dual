@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+        <text>$module$/Valor por defecto para [1 punto] Sobre SMART</text>
+
+    </category>
+  </question>
+
+
+
+<!-- question: 12300  -->
+  <question type="multichoice">
+    <name><text>Cuál es el peor valor</text>
+</name>
+    <questiontext format="html">
+<text><![CDATA[Un disco con la tecnología SMART tiene en su interior una serie de sensores.<br />Las mediciones de cada uno de ellos se plasman forma de atributos, que no son más que valores representados con un byte y que están entre 1 y 253.<br /><br />El valor concreto de cada atributo no tiene importancia... tan solo su evolución. Todos empiezan en un determinado valor (que el fabricante suele fijar para muchos de ellos a 100 o 200)... y a partir de ahí, van variando, según lo que detecten los sensores.<br /><br />Cuando leemos un valor SMART... interpretamos que...<br /><br /><br />]]></text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+<text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>      <text></text>
+</correctfeedback>
+    <partiallycorrectfeedback>      <text></text>
+</partiallycorrectfeedback>
+    <incorrectfeedback>      <text></text>
+</incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+      <answer fraction="100">
+        <text>
+Peor cuanto más bajo.
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="-100">
+        <text>
+Peor cuanto más alto.
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+</question>
+
+
+
+<!-- question: 12299  -->
+  <question type="multichoice">
+    <name><text>Predecible vs impredecible.</text>
+</name>
+    <questiontext format="html">
+<text>Según la filosofía de la tecnología SMART la mayor parte de los fallos de un disco tienen un carácter...</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+<text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>      <text></text>
+</correctfeedback>
+    <partiallycorrectfeedback>      <text></text>
+</partiallycorrectfeedback>
+    <incorrectfeedback>      <text></text>
+</incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+      <answer fraction="100">
+        <text>
+Predecible
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="-100">
+        <text>
+Impredecible
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+</question>
+
+
+
+<!-- question: 12298  -->
+  <question type="multichoice">
+    <name><text>SMART activo o pasivo</text>
+</name>
+    <questiontext format="html">
+<text>SMART intenta</text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+<text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>      <text></text>
+</correctfeedback>
+    <partiallycorrectfeedback>      <text></text>
+</partiallycorrectfeedback>
+    <incorrectfeedback>      <text></text>
+</incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+      <answer fraction="100">
+        <text>
+Predecir el fallo de un disco duro antes de que ocurra, y pueda ser sustituido. Por lo tanto, es una medida ACTIVA
+        </text>
+      <feedback>
+          <text>
+
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="-100">
+        <text>
+Informar del fallo de un disco cuando ya ha ocurrido, que se pueda parar el sistema y recuperar todo lo que se pueda. Por lo tanto, es una medida PASIVA
+        </text>
+      <feedback>
+          <text>
+FFFFFFFFFFFFFFFFUUUUUUUUUUUU!!!! 
+          </text>
+      </feedback>
+    </answer>
+</question>
+
+
+
+<!-- question: 12302  -->
+  <question type="multichoice">
+    <name><text>¿Detendrá el BIOS la carga del sistema operativo?</text>
+</name>
+    <questiontext format="html">
+<text><![CDATA[Nosotros hemos hablado de SMART como forma alternativa de que un sistema RAID inutilice un disco.<br /><br />Pero también se usa en estaciones de trabajo y equipos servidores con discos duros &quot;normales&quot; (no redundantes).<br /><br />De hecho, mi placa base, una AsRock normalita me permite configurarla para que si el sistema SMART predice un fallo de un disco me avise durante el arranque (algún atributo cae por debajo del mínimo).<br /><br />Mira, mira... durante el arranque de mi ordenador:<br /><img border="0" width="450" vspace="0" hspace="0" height="338" src="http://portal.iesjovellanos.org/moodle/file.php/156/img/smartarranque.jpg" alt="smart arranque" title="smart arranque" /><br /><br />Cuando detecta los discos duros lo tengo configurado para que lea la tabla SMART y me avise si hay algún problema... y me dice que mis dos discos duros tienen SMART (<a href="http://www.wordreference.com/es/translation.asp?tranword=capable" target="_blank">capable</a>) y que el estado (status) es OK.<br /><br /><font size="2">(El BIOS solo puede leer la tabla SMART de los discos durante el arranque. En una estacion de trabajo es muy buena idea dejar que el BIOS monitorice la tabla SMART, ya que se encienden prácticamente a diario, sin embargo, un servidor puede pasar mucho tiempo sin ser reiniciado.)</font><br /><br />Bueno... llegados a éste punto, para ésta pregunta no vas a tener ayuda, pero si has contestado a las anteriores, aplica el sentido común:<br /><br />Si durante el arranque el sistema SMART predijera que uno de mis discos duros no está OK. ¿Qué crees que hará el bios de mi ordenador, teniendo en cuenta que mis dos discos duros son discos &quot;normales&quot;, no redundantes?<br /><br />]]></text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+<text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <correctfeedback>      <text></text>
+</correctfeedback>
+    <partiallycorrectfeedback>      <text></text>
+</partiallycorrectfeedback>
+    <incorrectfeedback>      <text></text>
+</incorrectfeedback>
+    <answernumbering>abc</answernumbering>
+      <answer fraction="100">
+        <text>
+Me informa con un mensaje y me dice que pulse F1 para continuar.
+        </text>
+      <feedback>
+          <text>
+Exacto. Ten en cuenta que SMART es un sistema predictivo... el disco no tiene por qué haber fallado cuando SMART avisa de un fallo inminente. 
+          </text>
+      </feedback>
+    </answer>
+      <answer fraction="-100">
+        <text>
+No me deja continuar de ninguna manera. Inutiliza el disco y debo reemplazarlo.
+        </text>
+      <feedback>
+          <text>
+<![CDATA[Noooooooooooooooooo.<br />No tendría ningún sentido en una estación de trabajo sin redundancia en los discos. Me quedaría sin poder trabajar y es probable que el disco no haya fallado todavía.<br /> ]]>
+          </text>
+      </feedback>
+    </answer>
+</question>
+
+
+
+<!-- question: 12301  -->
+  <question type="truefalse">
+    <name><text>Mi disco duro.</text>
+</name>
+    <questiontext format="html">
+<text><![CDATA[Hay muchos programas capaces de leer los valores de la tabla SMART de un disco duro.<br /> Yo me he descargado el <a href="http://support.wdc.com/product/download.asp?groupid=608&sid=3&lang=en" target="_blank">Data LifeGuard Diagnostics</a>, de Western Digital, que es capaz de hacerlo, junto con algunas otras pruebas del disco duro.<br /> <br /> <img width="634" vspace="0" hspace="0" height="479" border="0" title="hd" alt="hd" src="http://portal.iesjovellanos.org/moodle/file.php/156/img/smartwd.png" /><br /> <br /> Parte de la tabla SMART de mi disco duro es ésta.<br /> <br /> Para cada atributo<br />
+<ul>
+  <li><span style="font-weight: bold;">ID</span>: es un identificador del sensor. Con ese ID, el programa me presenta el nombre del atributo.<br /> (Los atributos con sus ID están estandarizados por los fabricantes. Puedes ver la tabla entera <a href="http://en.wikipedia.org/wiki/S.M.A.R.T.#Known_ATA_S.M.A.R.T._attributes" target="_blank">aquí</a>)<br /> </li>
+  <li><span style="font-weight: bold;">Value</span>: es el valor actual leido para ese sensor.</li>
+  <li><span style="font-weight: bold;">Threshold </span>(umbral) es el mínimo admitido para el valor. Si tiene un 0 significa que no hay mínimo, y que el valor es informativo.</li>
+  <li><span style="font-weight: bold;">Worst</span>: es el peor valor que tuvo ese atributo en algún momento en la vida de mi disco duro.</li>
+</ul>
+<p><br /> </p>
+<p>Sólo los atributos con un <span style="font-weight: bold;">threshold (umbral)</span> distinto de 0 pueden hacer que el sistema SMART por sí mismo indique un fallo inminente del disco duro. (Los demás pueden ser utilizados por cualquier software de monitorización, pero el sistema SMART no los utilizará para predecir un fallo del disco).</p>
+<p>Observa la lista de valores de arriba, y fíjate sólo en los que tienen un threshold distinto de 0. Observa también sus valores actuales, y el peor valor que dieron los sensores en algún momento.</p>
+<p>¿Debo preocuparme por la salud de mi disco duro?<br /> </p>]]></text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+<text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="0">
+      <text>true</text>
+
+      <feedback>
+        <text>
+<![CDATA[ :-? Vuelve a mirar.<br />Tanto los valores actuales como los peores históricos están bastante lejos del umbral en los tres atributos que tienen umbral.<br /><br /> ]]>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>false</text>
+
+      <feedback>
+        <text>
+ Muy bien. Tanto los valores actuales como los peores históricos están bastante lejos del umbral en los tres atributos que tienen umbral. 
+        </text>
+      </feedback>
+    </answer>
+</question>
+
+
+
+<!-- question: 12297  -->
+  <question type="truefalse">
+    <name><text>Todos los discos duros la tienen</text>
+</name>
+    <questiontext format="html">
+<text><![CDATA[Abre y lee <a href="http://es.wikipedia.org/wiki/S.M.A.R.T." target="_blank">éste artículo sobre S.M.A.R.T de la wikipedia</a>.<br /><br />Luego, contesta a éstas preguntas.<br /><hr style="width: 100%; height: 2px;" /><br />Todos los discos duros tienen la tecnología SMART.<br />]]></text>
+    </questiontext>
+    <image></image>
+    <generalfeedback>
+<text></text>
+    </generalfeedback>
+    <defaultgrade>1</defaultgrade>
+    <penalty>1</penalty>
+    <hidden>0</hidden>
+    <shuffleanswers>0</shuffleanswers>
+    <answer fraction="0">
+      <text>true</text>
+
+      <feedback>
+        <text>
+<![CDATA[No... Depende del fabricante.<br />Cada modelo puede o no implementarla, y de distinta manera.<br /> ]]>
+        </text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>false</text>
+
+      <feedback>
+        <text>
+Ok. Cada modelo puede tenero o no esta tecnología... y si la tiene, la implementará en mayor o menor grado. 
+        </text>
+      </feedback>
+    </answer>
+</question>
+
+
+</quiz>

@@ -1,0 +1,413 @@
+Una persona que extrae y analiza los datos que se transmiten por una línea de comunicación es un
+{
+  ~DoS
+  =Sniffer
+  ~Hacker
+  ~Phreaker
+}
+
+Un sistema capaz de detectar usuarios y contraseñas, ya sean contraseñas para el sistema local o para sistemas accedidos remotos, es un
+{
+  ~Phreaker
+  =Keylogger
+  ~Sniffer
+  ~Spoofing
+}
+
+El phishing
+{
+	~Implica siempre spam
+	~No necesita sniffing, pero hace que sea mas eficaz
+	=Suele estar asociado a spam, pero podría realizarse por otros medios (por ejemplo, anuncios en periódicos)
+	~Necesita sniffing en todos los casos
+}
+
+Cuando un servicio informático (por ejemplo, una web) es imitado por otro para hacerse pasar por el servicio original, se esta utilizando
+{
+	~Phishing
+	~Dos
+	~Spamming
+	=Spoofing
+}
+
+Un adware
+{
+	~Es indetectable por el usuario
+	=Muestra mensajes al usuario
+	~Es un virus, del tipo troyano
+	~Es un virus, pero no un troyano
+}
+
+Es spyware
+{
+	=Todos los keyloggers
+	~Todos los virus
+	~Todos los adware
+	~Todos los spoofing
+}
+
+Si comparamos un ataque DOS con un DDOS
+{
+    =Un ataque DDOS suele estar originado en una botnet
+    ~Un ataque DDOS es más fácil de evitar
+    ~Un ataque DOS es un tipo de ataque DDOS
+    ~Un ataque DOS suele tener mayor impacto que uno DDOS
+}
+
+Un malware que modifica otros ficheros ejecutables para que contengan copias del malware es un
+{
+  =Virus
+  ~Troyano
+  ~Adware
+  ~Hoax
+}
+
+Un malware que se propaga, pero sin modificar otros ficheros ejecutables, es un
+{
+  =Gusano
+  ~Troyano
+  ~Virus
+  ~Hoax
+}
+
+El payload
+{
+  =Es la función maliciosa de un malware
+  ~Es un sinónimo de spyware
+  ~Es un sinónimo de adware
+  ~Es el sistema de propagación de un malware
+}
+
+La llamada a casa de un malware
+{
+  =Se usa para comunicar datos privados del usuario, o modificar el payload
+  ~Se usa para infectar a nuevos sistemas
+  ~Puede evitarse instalando un firewall con NAT
+  ~Se usa para instalar un rootkit
+}
+
+
+Un troyano se caracteriza porque
+{
+	~Se instala a través de spam
+	=El usuario colabora en su instalación en el sistema
+	~Roba contraseñas, especialmente de cuentas de banco
+	~Instala un keylogger
+}
+
+La clasificación de los malwares (virus, ransomware, addware, gusano,...) se suele basar en
+{
+    =Por su forma de propagación y las acciones de su payload
+    ~Por su nivel de impacto en la seguridad
+    ~Por la forma en que se combate desde las políticas de seguridad
+    ~Por el tipo de hacker que lo ha creado
+}
+
+La ingeniería social
+{
+  ~Consiste en manipular sistemas biométricos de autentificación
+  ~Se utiliza para hacer sniffing
+  =Se basa en el comportamiento social usual de las personas
+  ~Encuentra formas de construir contraseñas que las personas puedan recordar fácilmente
+}
+
+Un mensaje en el que se da una noticia impactante, pero de baja credibilidad, es un
+{
+  =Hoax
+  ~Spam
+  ~Phishing
+  ~Troyano
+}
+
+Generalmente, se utiliza el email para enviar spam porque
+{
+  ~Es el método tradicional
+  =Permite llegar a más gente, con menor inversión en dinero y tiempo
+  ~No es fácil conseguir otro tipo de direcciones de personas, por ejemplo, de Whatsapp
+  ~Es más fácil engañar a un antivirus con un email que, por ejemplo, con Whatsapp
+}
+
+Las actualizaciones de software
+{
+  ~No son importantes para la seguridad, excepto la del antivirus
+  =Son importantes para la seguridad, ya que pueden arreglar vulnerabilidades
+  ~No son importantes para la seguridad, pero sí para el usuario, ya que añaden nuevas funcionalidades
+  ~Deben retrasarse lo más posible, porque son una fuente de troyanos (excepto la actualización del antivirus)
+}
+
+Las actividades del _______________ se orientan a perjudicar al atacado, y a veces a obtener algún provecho de ello
+{
+  =Cracker
+  ~Hacker
+  ~Samurai
+  ~Nerd
+}
+
+Se llama poisoning, en ocasiones, al
+{
+  =Spoofing
+  ~Sniffing
+  ~Phishing
+  ~Fuerza bruta
+}
+
+La técnica de la inundación (flooding) suele utilizarse para realizar un ataque de
+{
+  =Denial of service
+  ~DNS spoofing
+  ~DNS hijacking
+  ~Sniffing
+}
+
+Para conseguir un ataque man-in-the-middle, suele ser necesario utilizar previamente
+{
+  =Spoofing
+  ~Fuerza bruta
+  ~Denial of service
+  ~Phishing
+}
+
+Desde el punto de vista del atacante, un ataque de diccionario es una alternativa a
+{
+  =Fuerza bruta
+  ~Code injection
+  ~Denial of service
+  ~Flooding
+}
+
+El malware más complicado de detectar es
+{
+  =Un rootkit
+  ~Un spam
+  ~Un gusano
+  ~Un DOS
+}
+
+Un exploit es
+{
+  =Un software que automatiza los ataques
+  ~Una vulnerabilidad aun desconocida por el fabricante
+  ~Una vulnerabilidad ya conocida por el fabricante
+  ~Un hacker de reconocido prestigio
+}
+
+Un rootkit
+{
+  =Modifica el sistema operativo para ocultar la presencia del malware
+  ~Se comunica con un servidor de internet, de forma que cede el control del sistema infectado al atacante
+  ~Permite que el atacante se conecte a la máquina infectada
+  ~Es un exploit para conseguir privilegios de administrador
+}
+
+Una botnet
+{
+  =Es un conjunto de ordenadores infectados por un malware, y controlados por el atacante
+  ~Es un conjunto de ordenadores realizando un DoS
+  ~Es un conjunto de ordenadores protegidos por el mismo antivirus
+  ~Es un conjunto de ordenadores ejecutando un antivirus que aisla una red interna de Internet 
+}
+
+Elige la política de contraseñas más segura (sin incluir la ñ)
+{
+  =Cuatro letras minúsculas seguidas de tres números
+  ~Cinco letras mayúsculas o minúsculas
+  ~8 números
+  ~Tres letras mayúsculas o minúsculas seguidas de tres números 
+}
+
+Los ataques de code injection se caracterizan por
+{
+  =Aprovechar vulnerabilidades de los programas o servicios para que ejecuten un código elegido por el atacante
+  ~Provocar una denegación de servicio (DOS)
+  ~Propagarse como un gusano
+  ~Propagarse como un troyano
+}
+
+El antivirus puede ejecutarse
+{
+  =Al vuelo, a demanda y antes de la carga del sistema operativo
+  ~A demanda
+  ~Al vuelo y a demanda
+  ~Al vuelo, a demanda, antes de la carga del sistema operativo y antes  del arranque BIOS
+}
+
+Realizar sniffing es más fácil
+{
+  =En una red con un hub
+  ~En una red con un switch
+  ~Es igual de complicado en una red con un hub o un switch
+  ~El sniffing no puede realizarse en redes ethernet, sólo en redes inalámbricas
+}
+
+Un ataque de flooding es un tipo concreto de
+{
+  =DOS
+  ~Man in the middle
+  ~Troyano
+  ~Phishing
+}
+
+Describe en qué consiste un ataque de ARP spoofing. Describe qué medidas pueden tomarse para evitar este tipo de ataques.
+{
+}
+
+Describe qué medidas pueden tomarse ante el phishing
+{
+}
+
+Describe los posibles pasos a seguir para conseguir una botnet
+{
+}
+
+Al cifrar un texto en claro con una de las claves de un sistema asimétrico, el texto cifrado resultante
+{
+  =Se puede descifrar con la otra clave del sistema asimétrica
+  ~Se puede descifrar con la misma clave del sistema asimétrico
+  ~Tiene siempre la misma longitud (por ejemplo, 32 bytes para MD5)
+  ~Es igual al texto cifrado que se conseguiría con la otra clave asimétrica
+}
+
+¿Para qué puede utilizar un "hidden volume" de TrueCrypt?
+{
+  ~El concepto de "hidden volume" no es de TrueCrypt, se aplica a los discos no montados en el fichero /etc/fstab
+  =Para poder presentar un conjunto de ficheros creible, pero falso
+  ~El concepto de "hidden volume" no es de TrueCrypt, se aplica a los discos externos en la BIOS para no arrancar desde ellos
+  ~Todos los discos son "hidden", porque los datos están encriptados
+}
+
+Para mejorar el objetivo de "no repudio" de los envíos de información
+{
+  =Basta con firmar los ficheros
+  ~Hay que firmar y encriptar los ficheros
+  ~Basta con encriptar los ficheros
+  ~Hay que enviar el fichero encriptado y sin encriptar, para su comparación
+}
+
+La criptografía híbrida
+{
+  ~Mezcla claves públicas y privadas
+  =Mezcla métodos simétricos y asimétricos
+  ~Mezcla métodos de sustitución y transposición
+  ~Mezcla encriptación y firma
+}
+
+En un sistema de clave simétrica
+{
+  ~No es un problema el intercambio de claves, ya que si un tercero intercepta la clave no puede desencriptar los envíos
+  ~Es un problema el intercambio de claves, ya que si un tercero intercepta la clave puede cambiar las firmas electrónicas
+  =No es posible realizar firma electrónica
+  ~No es posible desencriptar sin la clave privada
+}
+
+En un sistema de clave asimétrica
+{
+  ~Se encripta solamente con la clave privada, y se desencripta solamente con la clave pública
+  ~Se encripta solamente con la clave pública, y se desencripta solamente con la clave privada
+  ~Se encripta con una de las claves (privada o pública), y se desencripta con la misma clave
+  =Se encripta con una de las claves (privada o pública), y se desencripta con la otra clave
+}
+
+Para conseguir una firma electrónica se necesita
+{
+  ~Un canal seguro y un sistema de claves simétrico
+  ~Una función resumen y un sistema de claves de tipo simétrico
+  ~Un canal seguro y un sistema de claves asimétrico
+  =Una función resumen y un sistema de claves de tipo asimétrico
+}
+
+Son funciones resumen
+{
+  ~PKI, MD5
+  ~MD5, GPL
+  ~SHA1, PKI
+  =MD5, SHA1
+}
+
+La desventaja de un sistema de clave asimétrica respecto de uno con clave simétrica es que
+{
+  =Es más lento, por el tiempo de proceso
+  ~Es menos seguro el intercambio de claves
+  ~Es menos seguro, porque las claves son más cortas
+  ~Es menos seguro, porque es una tecnología más antigua
+}
+ 
+La desventaja de un sistema de clave simétrica respecto de uno con clave asimétrica es que
+{
+  ~Es más lento, por el tiempo de proceso
+  =Es menos seguro el intercambio de claves
+  ~Es más difícil y caro realizar programas que lo implementen
+  ~Es menos seguro, porque las claves son más cortas
+}
+
+En una comunicación se comienza utilizando una clave asimétrica para intercambiar una clave simétrica. Esto se hace para
+{
+  ~Aumentar la confidencialidad
+  ~Aumentar el objetivo de "no repudio"
+  =Ahorrar tiempo de proceso, ya que las claves asimétricas son más difíciles de computar
+  ~Ahorrar tiempo de proceso, ya que las claves simétricas son más difíciles de computar
+}
+
+En un sistema de criptografía híbrida, como el estudiado en clase, hay
+{
+  ~2 claves (dos públicas)
+  ~2 claves (una pública y una privada)
+  =3 claves (una pública, una privada y una simétrica)
+  ~3 claves (dos públicas y una privada)
+}
+
+En un sistema de criptografía híbrida, como el estudiado en clase
+{
+  =Una de las partes inventa sobre la marcha una clave simétrica
+  ~Una de las partes inventa sobre la marcha una clave pública
+  ~Una de las partes inventa sobre la marcha una clave privada
+  ~Una de las partes inventa sobre la marcha un par de claves (pública y privada)
+}
+
+Las siglas PKI hacen referencia a
+{
+  =El estándar que permite intercambiar claves públicas, y confiar en ellas
+  ~El programa que se suele utilizar para la criptografía de clave pública
+  ~El conjunto de una clave pública y privada, empaquetadas en un certificado x509
+  ~El conjunto de certificados raíz de mi navegador web
+}
+
+El "Cifrado del César" es
+{
+  =Criptografía simétrica, porque se usa la misma clave para cifrar y descifrar
+  ~Criptografía asimétrica, porque se usa distinto algoritmo para cifrar que para descifrar
+  ~Criptografía híbrida, porque mezcla métodos manuales y automáticos
+  ~Criptografía estadística, porque se necesitan probar varias posibilidades
+}
+
+La autenticación consiste en
+{
+  =verificar la identidad de un usuario
+  ~firmar un documento
+  ~otorgar permisos a cierto usuario
+  ~usar métodos biométricos
+}
+
+Se dice de un certificado que es raíz si
+{
+  =Es un certificado considerado seguro, que puede firmar otros certificados
+  ~Es un certificado firmado por otro que tenga mayor nivel
+  ~Es el certificado asociado a la raíz del DNS (.)
+  ~Es el certificado que se utilizó para instalar el sistema operativo
+}
+
+En una comunicación HTTPS
+{
+    =El servidor podría requerir también un certificado del usuario, aunque no es común
+    ~Solo puede haber un certificado, que es el que el servidor envía al cliente
+    ~No hay certificados con claves públicas, ya que se usa criptografía asimétrica
+    ~No hay certificados con claves públicas, ya que se usa criptografía híbrida
+}
+
+Describe cómo se puede utilizar un sistema de criptografía asimétrica para realizar la firma digital de un fichero
+{
+}
+
+Describe qué pasos realiza un navegador web para decidir que una conexión https es segura
+{
+}
+

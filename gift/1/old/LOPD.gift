@@ -1,0 +1,16 @@
+La L.O.P.D. afecta a 
+{
+  =Los ficheros informáticos con datos personales
+  ~Los ficheros informáticos con cualquier tipo de información
+  ~Los ficheros informáticos cifrados
+  ~Los ficheros informáticos no cifrados, si contienen datos personales
+}
+
+Quedan fuera del ámbito de la L.O.P.D.
+{
+  =Los ficheros informáticos con datos personales, si son de uso particular
+  ~Las grabaciones de video en lugares públicos, si no tienen audio
+  ~Las grabaciones de audio en lugares públicos, si no tienen video
+  ~Los ficheros informáticos con datos personales, si están cifrados
+}
+

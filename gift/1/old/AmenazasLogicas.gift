@@ -1,0 +1,64 @@
+Un phreaker es una amenaza para
+{
+  =Los sistemas de telefonía
+  ~Las bases de datos online
+  ~Los sistemas de pago por tarjeta
+  ~Las tiendas online
+}
+
+Una persona que extrae y analiza los datos que se transmiten por una línea de comunicación es un
+{
+  ~Carder
+  ~Hacker
+  ~Phreaker
+  =Sniffer
+}
+
+Un sistema capaz de detectar usuarios y contraseñas, ya sean contraseñas para el sistema local o para sistemas remotos, es un
+{
+  =Keylogger
+  ~Sniffer
+  ~Phishing
+  ~Spoofing
+}
+
+El phishing
+{
+  ~Implica siempre spam
+  =Suele estar asociado a spam, pero podría realizarse por otros medios (por ejemplo, anuncios en periódicos)
+  ~No necesita sniffing, pero hace que sea mas eficaz
+  ~Necesita sniffing en todos los casos
+}
+
+Cuando un servicio informático (por ejemplo, una web) es imitado para intentar conseguir información de los usuarios, se esta utilizando
+{
+  ~Cracking
+  ~Spamming
+  ~Upmaking
+  =Spoofing
+}
+
+Un adware
+{
+  ~Es un virus, del tipo troyano
+  ~Es un virus, pero no un troyano
+  ~Es indetectable por el usuario
+  =Muestra mensajes al usuario
+}
+
+Es spyware
+{
+  ~Todos los virus
+  =Todos los keyloggers
+  ~Todos los adware
+  ~Todos los spoofing
+}
+
+Un troyano se caracteriza porque
+{
+  =El usuario colabora en su instalación en el sistema
+  ~Instala un keylogger
+  ~Roba contraseñas, especialmente de cuentas de banco
+  ~Se instala a través de spam
+}
+

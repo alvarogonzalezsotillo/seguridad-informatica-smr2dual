@@ -1,0 +1,103 @@
+﻿A la hora de crear copias de seguridad, es preferible copiar
+{
+  	~Los programas
+  	~Todos los datos de todos los ordenadores de la empresa
+  	=Aquellos datos con mayor impacto (según el plan de actuación)
+  	~Aquellos programas y datos con mayor resultado (según el plan de contingencia)
+}
+
+Las copias de seguridad mejoran
+{
+  	~La integridad
+  	~La confidencialidad
+  	~La integridad y la confidencialidad
+  	=La integridad y la disponibilidad
+}
+
+Las copias incrementales se distinguen de las diferenciales
+{
+  	=Porque estadísticamente una copia incremental ocupa menos espacio que una diferencial
+  	~Porque estadísticamente una copia diferencial ocupa menos espacio que una incremental
+  	~En UNIX/LINUX no hay diferencia, pero en Windows la incremental utiliza el atributo A de los ficheros
+  	~En Windows no hay diferencia, pero en UNIX/LINUX la incremental utiliza el contenido de los ficheros
+}
+
+El tipo de copia de seguridad que acaba utilizando el menor espacio en disco 
+{
+  	~La diferencial
+  	~La estadística
+  	=La incremental
+  	~La estadística o la incremental, indistintamente
+}
+
+El tipo de copia que ofrece mayores garantías de integridad y disponibilidad es
+{
+  	=La completa
+  	~La diferencial
+  	~La estadística
+  	~La completa o la estadística, indistintamente
+}
+
+El tipo de copia de seguridad más simple de restaurar es
+{
+  	=La completa
+  	~La diferencial
+  	~La estadística
+  	~La completa o la estadística, indistintamente
+}
+
+Una empresa define una política de seguridad en la que un backup con todos los datos se transfiere semanalmente a GoogleDrive, y se mantiene allí dos meses. Es una copia
+{
+  =Off-site y completa
+  ~Off-line y diferencial
+  ~On-line y diferencial
+  ~On-line y completa
+}
+
+El tipo de copia de seguridad que acaba utilizando el mayor espacio en disco es
+{
+  	=La diferencial
+  	~La estadística
+  	~La incremental
+  	~La estadística o la incremental, indistintamente
+}
+
+Se necesita una copia completa inicial para basar en ella
+{
+  	~Las copias incrementales
+  	~Las copias diferenciales
+  	~Las copias estadísticas
+  	=Las copias incrementales y las diferenciales
+}
+
+El medio soporte de datos con peor tiempo de acceso (para lectura y escritura) es
+{
+  	=Cinta
+  	~Disco duro interno
+  	~Disco duro externo
+  	~Dvd
+}
+
+Se puede restaurar sin una copia total
+{
+  =Otra copia total
+  ~Una copia incremental
+  ~Una copia diferencial
+  ~Una serie de copias diferenciales
+}
+
+Una copia de seguridad off-site es deseable porque
+{
+  =Mejora la disponibilidad
+  ~Mejora la confidencialidad
+  ~Mejora la rapidez con la que se realizan las copias
+  ~Mejora comunicación dentro de la empresa
+}
+
+Diseña una política de respaldo en la que haya disponible copias de los datos de hasta hace dos años. En dicha política se utilizarán citas de backup, pero no más de 50 (pista: los datos recientes deben tener una menor granularidad). Indica el tipo de backup, sobre qué backup se basa y la periodicidad del mismo. 
+{
+}
+
+
+
+
