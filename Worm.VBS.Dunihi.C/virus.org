@@ -1,0 +1,3 @@
+El fichero [[file:article_FB.vbs.zip]] contiene un virus para Windows. Para evitar que los antivirus lo eliminen, está comprimido con la contraseña =virus=.
+
+*No lo descargues en un ordenador real*. Utiliza siempre una máquina virtual para evitar el riesgo de infección.
