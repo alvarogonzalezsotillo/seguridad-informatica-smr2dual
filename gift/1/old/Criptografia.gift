@@ -1,0 +1,103 @@
+¿Por qué se necesitan números aleatorios al generar una clave asimétrica?
+{
+  ~Para asegurar que la clave es más asimétrica que simétrica
+  =Para que un atacante no pueda reproducir el proceso de generación de la clave, y así conseguir dicha clave
+  ~Para captar las características biométricas del usario que la genera
+  ~Para que la clave tenga más bits de longitud
+}
+
+Se mejora la confidencialidad de los envíos de información
+{
+  	~Si se firman los ficheros
+  	~Si se firman y encriptan los ficheros
+  	=Basta con encriptar los ficheros, no hace falta firmalos
+  	~Hay que enviar el fichero encriptado, pero también sin encriptar, para su comparación
+}
+
+Para mejorar el objetivo de “no repudio” de los envíos de información
+{
+  	=Basta con firmar los ficheros
+  	~Hay que firmar y encriptar los ficheros
+  	~Basta con encriptar los ficheros
+  	~Hay que enviar el fichero encriptado y sin encriptar, para su comparación
+}
+
+La criptografía híbrida
+{
+  	~Mezcla claves públicas y privadas
+  	=Mezcla métodos simétricos y asimétricos
+  	~Mezcla métodos de sustitución y transposición
+  	~Mezcla encriptación y firma
+}
+
+En un sistema de clave simétrica
+{
+  	~No es un problema el intercambio de claves, ya que si un tercero intercepta la clave no puede desencriptar los envíos
+  	~Es un problema el intercambio de claves, ya que si un tercero intercepta la clave puede cambiar las firmas electrónicas
+  	=No es posible realizar firma electrónica
+  	~No es posible desencriptar sin la clave privada  
+}
+
+En un sistema de clave privada
+{
+  	~Se encripta solamente con la clave privada, y se desencripta solamente con la clave pública
+  	~Se encripta solamente con la clave pública, y se desencripta solamente con la clave privada
+  	~Se encripta con una de las claves (privada o pública), y se desencripta con la misma clave
+  	=Se encripta con una de las claves (privada o pública), y se desencripta con la otra clave
+}
+
+Para conseguir una firma electrónica se necesita
+{
+  	~Un canal seguro y un sistema de claves simétrico
+  	~Una función resumen y un sistema de claves de tipo simétrico
+  	~Un canal seguro y un sistema de claves asimétrico
+  	=Una función resumen y un sistema de claves de tipo asimétrico
+}
+
+Son funciones resumen
+{
+  	~PKI, MD5
+  	~MD5, GPL
+  	~SHA1, PKI
+  	=MD5, SHA1
+}
+
+La desventaja de un sistema de clave asimétrica respecto de uno con clave simétrica es que
+{
+  	=Es más lento, por el tiempo de proceso
+  	~Es más rápido, pero menos preciso
+  	~Es menos seguro, porque las claves son más cortas
+  	~Es menos seguro, porque es una tecnología más antigua
+}
+
+La desventaja de un sistema de clave simétrica respecto de uno con clave asimétrica es que
+{
+  	~Es más lento, por el tiempo de proceso
+  	=Es menos seguro, por el intercambio de claves
+  	~Es más difícil y caro realizar programas que lo implementen
+  	~Es menos seguro, porque las claves son más cortas
+}
+
+En una comunicación se comienza utilizando una clave asimétrica para intercambiar una clave simétrica. Esto se hace para
+{
+  	~Aumentar la confidencialidad
+  	~Aumentar el objetivo de “no repudio”
+  	=Ahorrar tiempo de proceso, ya que las claves asimétricas son más difíciles de computar
+  	~Ahorrar tiempo de proceso, ya que las claves simétricas son más difíciles de computar
+}
+
+En un sistema de criptografía híbrida, como los estudiados en clase, puede haber
+{
+  	~2 claves (dos públicas)
+  	~2 claves (una pública y una privada)
+  	=3 claves (una pública, una privada y una simétrica)
+  	~3 claves (dos públicas y una privada)
+}
+
+En un sistema de criptografía híbrida, como el estudiado en clase,
+{
+  	=Una de las partes inventa sobre la marcha una clave simétrica
+  	~Una de las partes inventa sobre la marcha una clave pública
+  	~Una de las partes inventa sobre la marcha una clave privada
+  	~Una de las partes inventa sobre la marcha un par de claves asiméticas (pública y privada)
+}

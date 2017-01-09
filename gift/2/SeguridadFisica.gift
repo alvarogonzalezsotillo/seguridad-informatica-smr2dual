@@ -1,0 +1,145 @@
+﻿Los SAIS (UPS) más caros suelen ser
+{
+  =Los online
+  ~Los offline
+  ~No hay diferencia de precio entre online u offline
+  ~Los offline, si no incluyen AVR
+}
+
+Las baterías más comunes en un SAI son
+{
+  =De plomo y ácido
+  ~Ión Litio
+  ~Nanotubos
+  ~Salinas
+}
+
+Los SAIS que incluyen un conmutador son
+{
+  ~Los online
+  =Los offline
+  ~Los online y los offline, indistintamente
+  ~Los offline, si no incluyen AVR
+}
+
+Los SAIS que incluyen un inversor son
+{
+  ~Los online
+  ~Los offline
+  =Los online y los offline, indistintamente
+  ~Los offline, si no incluyen AVR
+}
+
+Se distingue entre los servidores y las estaciones de trabajo de una red
+{
+  =Por la función que se les asigna
+  ~Por la potencia del procesador
+  ~Por la capacidad de memoria y disco duro
+  ~Por la versión de sistema operativo
+}
+
+Un rango adecuado de la humedad relativa para el funcionamiento de ordenadores en un CPD es
+{
+  =40-50%
+  ~90-100%
+  ~85-95%
+  ~Por debajo de 85%
+}
+
+Un rango adecuado para la temperatura de un datacenter, según lo visto en clase, es de
+{
+  =20º a 25º
+  ~Menor de 10º
+  ~Menor de 20º
+  =20º a 35º
+}
+
+El frontal de un servidor de tipo "pizza box" mide ('' significa pulgadas)
+{
+  =1.75'' x 19''
+  ~0.75'' x 19''
+  ~1.75'' x 10''
+  ~0.75'' x 10''
+}
+
+Un servidor tipo blade
+{
+  =Incluye más de un ordenador, para los que centraliza servicios como comunicaciones y alimentación
+  ~Incluye más de un ordenador, completamente independientes
+  ~Es un sólo ordenador, con un número muy grande de discos intercambiables
+  ~Es un sólo ordenador, con un número muy grande de discos y memoria RAM intercambiable
+}
+
+Para entrar a un CPD es necesario introducir un PIN en un teclado. El teclado sólo se muestra si previamente se ha acercado a la puerta una tarjeta RFID. Este sistema de autentificación se basa en
+{
+  =Algo que se sabe y algo que se posee
+  ~Algo que se sabe y algo que se es
+  ~Una contraseña y un PIN
+  ~Un usuario y una contraseña
+}
+
+La corriente eléctrica proporcionada a consumidores particulares en España es de
+{
+  =50Hz a 230V
+  ~60Hz a 230V
+  ~50Hz a 115V
+  ~60Hz a 115V
+}
+
+En una instalación informática tipo SOHO en la que se implementa un modelo de grupo de trabajo
+{
+  =Puede existir más de un ordenador servidor
+  ~Se mejora la característica segura de la confidencialidad
+  ~Se centralizan las vulnerabilidades del sistema
+  ~Ningún ordenador puede ser un servidor
+}
+
+Un extintor de polvo polivalente es válido para fuegos de tipo
+{
+  =A, B y C
+  ~A, C y D
+  ~A y B
+  ~B y C
+}
+
+Las señales de evacuación en caso de incendio son de color
+{
+  =Verde
+  ~Rojo
+  ~Verde y/o rojo
+  ~No está normalizado el color, pero sí los símbolos que deben aparecer en ellas
+}
+
+Un interrupor magnetotérmico marcado con C24
+{
+  =Permite el paso de corriente hasta los 24 Amperios
+  ~Permite el paso de corriente hasta los 24 Voltio-Amperios
+  ~Permite el paso de corriente, siempre que supere los 240 Voltios
+  ~Permite el paso de corriente, siempre que no supere los 240 Voltios
+}
+
+Los colores de los cables de fase, neutro y tierra son, respectivamente
+{
+  =rojo/marrón/negro, azul, amarillo
+  ~rojo/marrón/negro, amarillo, azul
+  ~azul, amarillo, rojo/marrón/negro
+  ~amarillo, rojo/marrón/negro, azul
+}
+
+Un aparato electrónico puede prescindir de la toma de tierra si
+{
+  =Está marcado con el símbolo de "doble aislamiento"
+  ~Utiliza un conector macho "schuko"
+  ~Utiliza menos de 10 Amperios
+  ~Utiliza menos de 2.5 Amperios
+}
+
+Un SAI offline interactivo tiene como componentes
+{
+  =Cargador, Inversor, Batería, AVR y conmutador
+  ~Cargador, Inversor, Batería, y AVR
+  ~Inversor, Batería, AVR y conmutador
+  ~Cargador, Inversor, Batería y conmutador
+}
+
+
