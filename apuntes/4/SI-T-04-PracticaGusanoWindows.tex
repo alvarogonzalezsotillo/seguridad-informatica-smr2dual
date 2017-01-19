@@ -9,6 +9,18 @@
 
 \usepackage{blindtext}
 
+% CAJAS
+\usepackage[skins]{tcolorbox}
+\newtcolorbox{Actividad}[1][Actividad]{
+  enhanced,
+  colback=gray!5!white,
+  colframe=gray!75!black,fonttitle=\bfseries,
+  colbacktitle=gray!85!black,
+  attach boxed title to top left={yshift=-2mm,xshift=2mm},
+  title=#1
+}
+
+
 \begin{document}
 
 % \maketitle
@@ -34,7 +46,7 @@ Durante el desarrollo de esta práctica, el alumno infectará una máquina virtu
 
 
 \section{Preparación de una máquina virtual}
-Instalar un gusano es una operación arriesgada, por lo que no se recomienda utilizar la máquina real para esta práctica. Necesitaremos una máquina virtual con las siguientes características:
+Instalar un gusano es una operación \textit{arriesgada}, por lo que no se recomienda utilizar la máquina real para esta práctica. Necesitaremos una máquina virtual con las siguientes características:
 \begin{itemize}
 \item Sistema operativo Windows 7,8 o 10
 \item No se necesitan más de 2G de memoria
@@ -70,8 +82,9 @@ Instalar un gusano es una operación arriesgada, por lo que no se recomienda uti
 \end{homeworkProblem}
 
 \begin{homeworkProblem}[: Contagia un \textit{pen drive} (3 puntos)]
-  \textit{Utiliza una memoria USB que no contenga datos importantes, porque por seguridad deberá formatearse al finalizar la práctica.}
-
+  \begin{Actividad}[Precaución]
+    Utiliza una memoria USB que no contenga datos importantes, porque por seguridad deberá formatearse al finalizar la práctica.
+  \end{Actividad}
   Conecta la unidad USB a la máquina virtual y:
   \begin{itemize}
   \item Desactiva o desinstala el antivirus.  
@@ -82,7 +95,9 @@ Instalar un gusano es una operación arriesgada, por lo que no se recomienda uti
   \item Desinstala el gusano de la unidad USB.
   \end{itemize}
 
-  \textit{Aunque creas que has desinstalado el gusano del la unidad USB, formatéala para mayor seguridad}
+  \begin{Actividad}[Precaución]
+    Aunque creas que has desinstalado el gusano del la unidad USB, formatéala para mayor seguridad
+  \end{Actividad}
 \end{homeworkProblem}
 
 \section{Qué se valorará}
