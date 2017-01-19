@@ -1,0 +1,102 @@
+
+* Clave del profesor
+
+** Privada
+-----BEGIN PGP PRIVATE KEY BLOCK-----
+Version: GnuPG v1
+
+lQN4BEzUdVARCACJJI5Sqecx8vnejesETYI+56HehtQZy+hqJkJfLJZ0KF6z9zgw
+/f37HRxuXemE6fJiA81w4F/TJ0qs9lgD5XYJ6OV/dRbA57d/51bXJums58BW4MMR
+zoTaxABpfY/yMR0N5CFSo2c0P3bu3eXu8oES3cG3lgQjfmFPCcuQLN0a+TXwBg8c
+Os8OxTogcgg9ANaS+VBGDCJdKoQpYiTwuVarWxy14ALsOhLWE50SOzp6TBPYThMR
+k1a6tfwwRU3Kc5SGNFcGI38Y42KnoxC7m1wzhEwPMiGX38ubujEcOHBdYdsvV+Hf
+9ZXnIg90Q79+apNkJJsaWfQSh3yAGJCDi64rAQCZb9szHJWw370TYcL13t0RuAT6
+x1YU87qvtt0TmADqtwf3UaMo4XCiQYvIvi5hOEvJZMNGnRH/NBRo9+MJCSbo9d2N
+xd0xXoxayUZnvtRwzfxE4gzKrXOSMxFSWv4lC7egFDxRxK9JPM9USOtKsFarp5Jb
+Ruk5vQDy8sXvsweCswlG8vaOcPNDQIOc192I8TvDrgfxmJu3mlYYuV84AELfVXH/
+YWVgadTxkh6eVxlK3oHsnU+YlymWSaad2OEmoM11KkK1SURJONdGFwzHN5fT3jM9
+CW/IjTEm5hqLnDwytNZtXncbnNuDclXAbr02r4hTNnLreJkLYiJ72tQOeMApLIxL
+wdABXBVWNaxskZhMlXrKDzy8+ny0HUnf9Vhi8ewJB/9DWXveLw0LGaoXwigGfl4F
+XTFQl5Aa4t4iEwW/LyyoqRZ7dMGZEIUzqFKm0Nite+W/nHyTUsQfLiVusKy9gM4O
+j7Y+StNxeIlvWsTCB3JvMixlUS48iDf/5QXVfn639llsBK3WsHfIJm+EmfDbRDi6
+8+PSoQlXLEREd8YlUoNbWVMF8VZHWTq85nt5IwNNywUT20g5Bio/iqoyQzkzPuRD
+JUSvOQHs60QzUPl7PsFy4z/hhKPwdvqlSi0/xCwu0o8GY9yw/0tG08ahcaGTf0nN
+vo3F8fdUK+CnTHQJtLlhhv67ZSMsC4U2sSa7NkZw9YDJopS9t4+Biey/bikYihnJ
+/gMDAtkynYXsUSwcYNhY0jHQCMPI5KgaN0Ea4KoHLK3VefHy2UV3aVCioReT265+
+H7rxCvS2E5mhVz6CJFyZmbLFYlgODotqs0LwtElhbHZhcm8gZ29uemFsZXogKHBy
+b2Zlc29yIGRlIHNlZ3VyaWRhZCBpbmZvcm1hdGljYSkgPGFsdmFyb0Bnb256YWxl
+ei5jb20+iHoEExEIACIFAkzUdVACGwMGCwkIBwMCBhUIAgkKCwQWAgMBAh4BAheA
+AAoJELPlpxZepKBSH1EBAIIDU4I8setg1iycdySjELNTidGOIO95FWC2SH7n+5dq
+AP0YsqK2qs3VzOriLlOTaME87mfYhsvS3YxHuSLFAg2SG50CYwRM1HVQEAgAz8Uq
+HqrpDNusBmjC+pjIl1M8dYmqcGlvu70Cfx2+Vy5avu+HQuVJD2WEn4qIw1aRpQh+
+L2MPovJ3QPO1V5zvtoYMF/0Aa+KJnoK0t9RMy1nuab58wRGl2CSmo1hCkZ/0QQww
+57+YyhxvUblWlOEmf1aMRLEUtsi974P8frOdN2N5gHQ5K6rAX04mJ3UBEiktfMIQ
+KCAyEsUdDAxAAMLtNR66vPLkhxHXzN3onCD/sOXjQ1yKkSofmIkB1l3oT/YAAZW6
+jclxLACcs/cka/HlxO6bN9OnbkCJWRpmvyKkfBzPxUkcQvliH4vtdsr/GkR90/SI
+hdCFuCql9gWhUUeGJwAECwf/TMpBQ/xmjfH08Nf5uW3VopRPuXLtOeHwVC2s9fZb
+XREtsVs07k+3PVpnzf6mIVMU8H4Yma/tD/5MH/59Y5YCSzn7mX1uSwWW9hkmmTm/
+plKoRnn9ZeWyYgMWbZa4F0AK11dcAwHeSOmw1KFY1bUEr7yG9SJ3CjN4maAiy2d/
+XVTbb9HaY6WH1IRfIgAdvCHztIXxS/FX/pSVl/BKXmr/trWOPHfWz9TCBj3Fw6xF
+vGEEgl93PIr+QQB1LDsUh3OQUnzS/pXXjg4BHLQ7m++D6Gnu+WTMA3+jpjgdeIKR
+nKS8hrUqx5QS1o3dwisTrqXRwmw24KyQ1pNmm4SGagDhJ/4DAwLZMp2F7FEsHGAf
+uI2CtENe9GNn7spour+VT5vuAcoqVz5mtJj4dYzFnuRzvTu1nmqS0GOP2XgqoBDf
+lCB8/w0k9A8VRsABoA6VlWd7zreBj4rZiGEEGBEIAAkFAkzUdVACGwwACgkQs+Wn
+Fl6koFKD7wD/dIpdxu+TvPvHiqKd/3FTXcaR3Yp6rZtszdkBWmrQnswA/2dQfZ52
+TXVe4jXNCs5vSOGd3sG08s9aIgFbUmtK2bZb
+=Vk+N
+-----END PGP PRIVATE KEY BLOCK-----
+
+Con clave profesor
+
+** Pública
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1
+
+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
+JltY9WgPTjGRcg==
+=iEuT
+-----END PGP PUBLIC KEY BLOCK-----
+
+
+* Comandos
+| Firmar en claro          | gpg -u alvaro --clearsign SI-T-05-PracticaGPG.txt |
+| Importar claves          | gpg --import <fichero-clave>                      |
+| Listar claves            | gpg --list-keys                                   |
+|                          | gpg --list-secret-keys                            |
+| Verificar la firma       | gpg --verify <fichero sig> [<fichero firmado>]    |
+| Firmar separado en ascii | gpg --detach-sign -a SI-T-05-PracticaGPG.txt      |
+|                          |                                                   |
+
