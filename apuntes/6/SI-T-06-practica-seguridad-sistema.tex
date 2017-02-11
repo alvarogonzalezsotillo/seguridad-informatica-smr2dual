@@ -1,6 +1,6 @@
 \input{../common/plantilla-ejercicio.tex}
 \usepackage{eurosym}
-
+\usepackage{qrcode}
 
 
 
@@ -44,26 +44,29 @@ Durante el desarrollo de esta práctica, el alumno provocará varios agujeros de
 Además, investigará qué tipo de niveles de acceso puede tener un usario en el sistema y la forma de modificarlos.
 
 
-\begin{homeworkProblem}[: Aprovecha un fallo de seguridad (provocado) en \textbf{Linux} (2 puntos)]
+\begin{homeworkProblem}[: Aprovecha un fallo de seguridad en \textbf{Linux} (2 puntos)]
 
   \begin{multicols}{2}
 
     \null \vfill
     \begin{Actividad}[1. Problema de seguridad]
-      Haz que el fichero \texttt{/etc/groups} y \texttt{/etc/passwd} de un sistema \textbf{Linux} tenga permisos 777.  
+      ¡El usuario \texttt{root} a dejado a \texttt{777} los permisos de \texttt{/etc/groups} y \texttt{/etc/passwd}!
+
+
     \end{Actividad}
     \vfill \null
     \columnbreak
 
 
-    \begin{Actividad}[2. Alguien lo aprovecha]
-      Crea un usuario \texttt{normal}, sin ningún permiso especial, y consigue utilizando ese usuario ser \texttt{root}
 
+    \begin{Actividad}[2. Un \textit{hacker} lo aprovecha]
+      Tienes acceso al usuario \texttt{normal}, pero no tiene ningún permiso especial. ¡Aprovecha el problema de seguridad y consigue ser \texttt{root}!
       \begin{itemize}
       \item Puedes cambiar la password del \texttt{root}, o bien…
       \item Puedes añadir usuarios al grupo \texttt{admin} y al grupo \texttt{sudo}, que son especiales para el comando \texttt{sudo}
       \end{itemize}
     \end{Actividad}
+
 
 
   \end{multicols}
@@ -74,7 +77,7 @@ Además, investigará qué tipo de niveles de acceso puede tener un usario en el
 
 \begin{homeworkProblem}[: Elección de una buena contraseña (1 punto)]
 
-    \begin{multicols}{2}
+  \begin{multicols}{2}
 
     \null \vfill
     \begin{Actividad}[1. Problema de seguridad]
@@ -84,25 +87,23 @@ Además, investigará qué tipo de niveles de acceso puede tener un usario en el
     \columnbreak
 
 
-    \begin{Actividad}[2. Alguien lo aprovecha]
+    \begin{Actividad}[2. Un \textit{hacker} lo aprovecha]
       \begin{itemize}
-      \item Alguien ha conseguido el fichero \path{/etc/shadow} y tiene el \textit{hash} md5 de la contraseña (tú puedes        conseguirlo con el comando \texttt{md5sum}).  
-      \item Intenta encontrar el \textit{hash} de la contraseña en
-        Internet. Si lo encuentras, es que la contraseña \textbf{pass} no es demasiado buena, y cualquiera puede        encontrar la contraseña a partir del \textit{hash} 
-      \item Cambia la contraseña por una mejor, y que no aparezca su        \textit{hash} en los buscadores
-
-    \end{itemize}
+      \item Consigues de un viejo \textit{backup} el fichero \path{/etc/shadow}, así que conoces el \textit{hash} md5 de la contraseña (en este caso, calcula el \textit{hash} con el comando \texttt{md5sum}).  
+      \item Intenta encontrar el \textit{hash} de la contraseña en Internet. Si lo encuentras, es que la contraseña \textbf{pass} no es demasiado buena, y cualquiera puede encontrar la contraseña a partir del \textit{hash} 
+      \end{itemize}
     \end{Actividad}
   \end{multicols}
 
 \end{homeworkProblem}
 
+\newpage
 \begin{homeworkProblem}[: Auditoría de accesos en \textbf{Linux} (1 punto)]
 
   \begin{multicols}{2}
 
     \begin{Actividad}[1. Problema de seguridad]
-      Alguien está intentando acceder a un ordenador con \textbf{Linux}, probando usuarios y contraseñas por fuerza bruta
+      Alguien está intentando acceder a tu \textbf{Linux}, probando usuarios y contraseñas por fuerza bruta
       \begin{itemize}
       \item Intenta hacer \textit{login} con un usuario que no existe (por \textit{ssh} o en una consola de texto)
       \item Intenta hacer \texttt{sudo} con contraseña incorrecta
@@ -114,7 +115,7 @@ Además, investigará qué tipo de niveles de acceso puede tener un usario en el
     \null \vfill
 
     \begin{Actividad}[2. El administrador lo detecta]
-      Localiza en qué fichero de log (\texttt{/var/log}) se han reportado dichos sucesos. ¿Qué información se obtiene?
+      Como tienes sospechas de lo que está ocurriendo, decides consultar los ficheros de log (en \texttt{/var/log}). ¿En qué ficheros se guardan estos sucesos?. ¿Qué información se obtiene?
     \end{Actividad}
 
     \vfill \null
@@ -131,61 +132,98 @@ Además, investigará qué tipo de niveles de acceso puede tener un usario en el
 
   \begin{multicols}{2}
 
+    \null \vfill
     \begin{Actividad}[1. Problema de seguridad]
-      Alguien está intentando acceder a un ordenador con \textbf{Linux}, probando usuarios y contraseñas por fuerza bruta
-      \begin{itemize}
-      \item Intenta hacer \textit{login} con un usuario que no existe (por \textit{ssh} o en una consola de texto)
-      \item Intenta hacer \texttt{sudo} con contraseña incorrecta
-      \item Intenta hacer \texttt{sudo} con un usuario que no tiene acceso a \texttt{sudo}
-      \end{itemize}
+      ¡El usuario \texttt{root} se ha dejado una consola abierta!.
+
+      Ahora que lo has visto, quieres aprovechar la posibilidad para poder ser \texttt{root} otro día. Tu problema es que si cambias la contraseña el administrador lo notaría. Necesitas una forma que no afecte a la configuración del sistema (los ficheros de \path{/etc}).
     \end{Actividad}
+    \vfill \null
     \columnbreak
 
-    \null \vfill
 
-    \begin{Actividad}[2. El administrador lo detecta]
-      Localiza en qué fichero de log (\texttt{/var/log}) se han reportado dichos sucesos. ¿Qué información se obtiene?
+
+    \begin{Actividad}[2. El \textit{hacker} lo aprovecha]
+      \begin{itemize}
+      \item Consulta información del permiso \texttt{s} en el manual de \texttt{chmod}
+      \item Crea una copia de la \textit{shell} (\texttt{/usr/bin/bash}) en el directorio \textit{home} de \textbf{normal} (\path{/home/normal/shell-de-root})
+      \item Haz que \texttt{shell-de-root} tenga como propietario a \texttt{root} y tenga el permiso \texttt{s}
+      \item Ejecuta \texttt{shell-de-root -p} siendo el usuario \texttt{normal}. ¿Qué ocurre?
+      \end{itemize}
     \end{Actividad}
-
-    \vfill \null
 
   \end{multicols}
 
   
-  \begin{itemize}
-  \item Consulta información del permiso \texttt{s} en el manual de \texttt{chmod}
-  \item Crea un usuario no administrador de nombre \textbf{normal}
-  \item Crea una copia de la \textit{shell} (\texttt{/usr/bin/bash}) en el directorio \textit{home} de \textbf{normal} (\path{/home/normal/shell-de-root})
-  \item Haz que \texttt{shell-de-root} tenga como propietario a \texttt{root} y tenga el permiso \texttt{s}
-  \item Ejecuta \texttt{shell-de-root -p} siendo el usuario \textbf{normal}. ¿Qué ocurre?
-  \end{itemize}
 \end{homeworkProblem}
 
+
+\newpage
 \begin{homeworkProblem}[: Implementa el uso de cuotas de disco en \textbf{Linux} (3 puntos)]
-  \begin{itemize}
-  \item Instala la el sistema de cuotas con \texttt{apt-get install quota}
-  \item Consulta \enlace{http://www.linuxparatodos.net/portal/staticpages/index.php?page=04-disk-quota\&mode=print}{http://www.linuxparatodos.net/portal/staticpages/index.php?page=04-disk-quota\&mode=print}
-    
-  \item Crea un usuario con una cuota de 1000 KBytes. Llena su cuota (por ejemplo, bajando imágenes de Internet) y observa qué ocurre.
-  \end{itemize}
+
+  \begin{multicols}{2}
+
+    \null \vfill
+    \begin{Actividad}[1. Problema de seguridad]
+      El usuario \texttt{normal} está abusando del sistema, ya que se está bajando multitud de archivos de Internet, y no deja sitio libre para el trabajo legítimo de los demás usuarios (es un ataque \textit{Denial of Serivice}).
+    \end{Actividad}
+    \vfill \null
+    \columnbreak
+
+
+
+    \begin{Actividad}[2. El administrador lo soluciona]
+      \newcommand{\tutorialcuota}{https://www.howtoforge.com/tutorial/linux-quota-ubuntu-debian}
+      \begin{itemize}
+      \item Consulta \enlace{\tutorialcuota}{este enlace} para ver cómo manejar las cuotas
+
+        \qrcode[height=4cm]{\tutorialcuota}
+        
+      \item Haz que el usuario \texttt{normal} tenga una cuota de 1000 KBytes. Observa qué ocurre cuando intenta utilizar más de este espacio del disco
+      \end{itemize}
+
+
+    \end{Actividad}
+
+  \end{multicols}
+
+
+
 \end{homeworkProblem}
 
 
 \begin{homeworkProblem}[: Listas de control de acceso (1 punto)]
 
-  Haz una lista de qué permisos pueden otorgarse/negarse en \textbf{Windows} a
+  \begin{multicols}{2}
 
-  \begin{itemize}
-  \item Ficheros
-  \item Procesos (utiliza el programa \texttt{procexp.exe})
-  \item Entradas de registro (utiliza \texttt{regedit.exe})
-  \end{itemize}
+    \null \vfill
+    \begin{Actividad}[1. Problema de seguridad]
+      El administrador tiene ahora un ordenador con \textbf{Windows}. Para configurarlo adecuadamente, necesita  una lista de qué permisos pueden otorgarse/negarse en \textbf{Windows} a cada tipo de \textit{objeto}.
+    \end{Actividad}
+    \vfill \null
+    \columnbreak
+
+
+
+    \begin{Actividad}[2. El administrador lo soluciona]
+      Consigue una lista de los permisos asignables a:
+      \begin{itemize}
+      \item Ficheros
+      \item Procesos (utiliza el programa \texttt{procexp})
+      \item Entradas de registro (utiliza el programa \texttt{regedit})
+      \end{itemize}
+    \end{Actividad}
+
+  \end{multicols}
+
+  
+
 \end{homeworkProblem}
 
 
 
 \section{Qué se valorará}
-En la memoria del trabajo se valorará:
+El resultado de la práctica debe ser una memoria con los pasos que el alumno ha seguido para seguir los pasos del administrador y el \textit{hacker}. Se valorará:
 \begin{itemize}
 \item Que cada paso quede bien documentado. 
 \item La corrección técnica (que funcione)
