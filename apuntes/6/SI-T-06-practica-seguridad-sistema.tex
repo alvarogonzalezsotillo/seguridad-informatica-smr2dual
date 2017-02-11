@@ -20,6 +20,7 @@
   title=#1
 }
 
+\usepackage{multicol}
 
 \begin{document}
 
@@ -44,33 +45,117 @@ Además, investigará qué tipo de niveles de acceso puede tener un usario en el
 
 
 \begin{homeworkProblem}[: Aprovecha un fallo de seguridad (provocado) en \textbf{Linux} (2 puntos)]
-  Haz que el fichero \texttt{/etc/groups} y \texttt{/etc/passwd} de un sistema \textbf{Linux} tenga permisos 777. Crea un usuario normal, sin ningún permiso especial, y consigue utilizando ese usuario ser \texttt{root}.
 
-  \begin{Actividad}[Pistas]
-    \begin{itemize}
-    \item Puedes cambiar la password del root, o bien…
-    \item Puedes añadir usuarios al grupo admin y al grupo sudo, que son especiales para el comando sudo
-    \end{itemize}
-  \end{Actividad}
+  \begin{multicols}{2}
+
+    \null \vfill
+    \begin{Actividad}[1. Problema de seguridad]
+      Haz que el fichero \texttt{/etc/groups} y \texttt{/etc/passwd} de un sistema \textbf{Linux} tenga permisos 777.  
+    \end{Actividad}
+    \vfill \null
+    \columnbreak
+
+
+    \begin{Actividad}[2. Alguien lo aprovecha]
+      Crea un usuario \texttt{normal}, sin ningún permiso especial, y consigue utilizando ese usuario ser \texttt{root}
+
+      \begin{itemize}
+      \item Puedes cambiar la password del \texttt{root}, o bien…
+      \item Puedes añadir usuarios al grupo \texttt{admin} y al grupo \texttt{sudo}, que son especiales para el comando \texttt{sudo}
+      \end{itemize}
+    \end{Actividad}
+
+
+  \end{multicols}
+
 
 \end{homeworkProblem}
 
 
 \begin{homeworkProblem}[: Elección de una buena contraseña (1 punto)]
-  \begin{itemize}
-  \item Crea el hash de la contraseña \textbf{pass} (por ejemplo con el comando \texttt{md5sum} o \texttt{sha256sum}). No uses \texttt{mkpasswd}, pues utiliza una \textbf{sal}.
-  \item Intenta encontrar el \textit{hash} de la contraseña en Internet. Si lo encuentras, es que la contraseña \textbf{pass} no es demasiado buena.
-  \item Cambia la contraseña por una mejor, y que no aparezca su \textit{hash} en los buscadores
-  \end{itemize}
+
+    \begin{multicols}{2}
+
+    \null \vfill
+    \begin{Actividad}[1. Problema de seguridad]
+      Un usuario utiliza una contraseña muy débil (\textbf{pass}). Su \textit{hash} se guarda en el fichero \path{/etc/shadow},
+    \end{Actividad}
+    \vfill \null
+    \columnbreak
+
+
+    \begin{Actividad}[2. Alguien lo aprovecha]
+      \begin{itemize}
+      \item Alguien ha conseguido el fichero \path{/etc/shadow} y tiene el \textit{hash} md5 de la contraseña (tú puedes        conseguirlo con el comando \texttt{md5sum}).  
+      \item Intenta encontrar el \textit{hash} de la contraseña en
+        Internet. Si lo encuentras, es que la contraseña \textbf{pass} no es demasiado buena, y cualquiera puede        encontrar la contraseña a partir del \textit{hash} 
+      \item Cambia la contraseña por una mejor, y que no aparezca su        \textit{hash} en los buscadores
+
+    \end{itemize}
+    \end{Actividad}
+  \end{multicols}
+
+\end{homeworkProblem}
+
+\begin{homeworkProblem}[: Auditoría de accesos en \textbf{Linux} (1 punto)]
+
+  \begin{multicols}{2}
+
+    \begin{Actividad}[1. Problema de seguridad]
+      Alguien está intentando acceder a un ordenador con \textbf{Linux}, probando usuarios y contraseñas por fuerza bruta
+      \begin{itemize}
+      \item Intenta hacer \textit{login} con un usuario que no existe (por \textit{ssh} o en una consola de texto)
+      \item Intenta hacer \texttt{sudo} con contraseña incorrecta
+      \item Intenta hacer \texttt{sudo} con un usuario que no tiene acceso a \texttt{sudo}
+      \end{itemize}
+    \end{Actividad}
+    \columnbreak
+
+    \null \vfill
+
+    \begin{Actividad}[2. El administrador lo detecta]
+      Localiza en qué fichero de log (\texttt{/var/log}) se han reportado dichos sucesos. ¿Qué información se obtiene?
+    \end{Actividad}
+
+    \vfill \null
+
+  \end{multicols}
+
+
 \end{homeworkProblem}
 
 
+
 \begin{homeworkProblem}[: Escalada de privilegios en \textbf{Linux} (2 puntos)]
+
+
+  \begin{multicols}{2}
+
+    \begin{Actividad}[1. Problema de seguridad]
+      Alguien está intentando acceder a un ordenador con \textbf{Linux}, probando usuarios y contraseñas por fuerza bruta
+      \begin{itemize}
+      \item Intenta hacer \textit{login} con un usuario que no existe (por \textit{ssh} o en una consola de texto)
+      \item Intenta hacer \texttt{sudo} con contraseña incorrecta
+      \item Intenta hacer \texttt{sudo} con un usuario que no tiene acceso a \texttt{sudo}
+      \end{itemize}
+    \end{Actividad}
+    \columnbreak
+
+    \null \vfill
+
+    \begin{Actividad}[2. El administrador lo detecta]
+      Localiza en qué fichero de log (\texttt{/var/log}) se han reportado dichos sucesos. ¿Qué información se obtiene?
+    \end{Actividad}
+
+    \vfill \null
+
+  \end{multicols}
+
   
   \begin{itemize}
   \item Consulta información del permiso \texttt{s} en el manual de \texttt{chmod}
   \item Crea un usuario no administrador de nombre \textbf{normal}
-  \item Crea una copia de la \textit{shell} (\texttt{/usr/bin/bash}) en el directorio \textit{home} de \textbf{normal} (\texttt{/home/normal/shell-de-root})
+  \item Crea una copia de la \textit{shell} (\texttt{/usr/bin/bash}) en el directorio \textit{home} de \textbf{normal} (\path{/home/normal/shell-de-root})
   \item Haz que \texttt{shell-de-root} tenga como propietario a \texttt{root} y tenga el permiso \texttt{s}
   \item Ejecuta \texttt{shell-de-root -p} siendo el usuario \textbf{normal}. ¿Qué ocurre?
   \end{itemize}
@@ -97,18 +182,6 @@ Además, investigará qué tipo de niveles de acceso puede tener un usario en el
   \end{itemize}
 \end{homeworkProblem}
 
-\begin{homeworkProblem}[: Auditoría de accesos en \textbf{Linux} (1 punto)]
-  \begin{itemize}
-  \item Realiza acciones relativas a accesos en \textbf{Linux}:
-    
-    \begin{itemize}
-    \item Intenta hacer login con un usuario que no existe
-    \item Intenta hacer sudo con contraseña incorrecta
-    \item 	Intenta hacer sudo con un usuario que no tiene acceso a sudo
-    \end{itemize}
-  \item Localiza en qué fichero de log (\texttt{/var/log}) se han reportado dichos sucesos ¿qué información se obtiene?
-  \end{itemize}
-\end{homeworkProblem}
 
 
 \section{Qué se valorará}
