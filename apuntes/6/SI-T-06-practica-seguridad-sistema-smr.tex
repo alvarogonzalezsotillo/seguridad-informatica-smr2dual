@@ -66,11 +66,11 @@ Durante el desarrollo de esta práctica, el alumno provocará varios agujeros de
 
 Cada paso está planteado desde el punto de vista de:
 
-\begin{tabular}{c c p{10cm}}
+\begin{tabular}{r c p{10cm}}
   %\hline
-  \colorbox{gray!85}{\dibujoadmin} & Un administrador de sistema & Intentará detectar, evitar o paliar los ataques a la seguridad. También cometerá errores que dejarán el sistema vulnerable. \\
+  Un administrador de sistema & \colorbox{gray!85}{\dibujoadmin} & Intentará detectar, evitar o paliar los ataques a la seguridad. También cometerá errores que dejarán el sistema vulnerable. \\
   % \hline
-  \colorbox{gray!85}{\dibujohacker} & Un \textit{hacker} & Intentará aprovechar fallos en la seguridad \\
+   Un \textit{hacker} & \colorbox{gray!85}{\dibujohacker} & Intentará aprovechar fallos en la seguridad \\
   %\hline
 \end{tabular}
 
@@ -167,7 +167,7 @@ Cada paso está planteado desde el punto de vista de:
     \begin{ActividadAdmin}[1. Problema de seguridad]
       ¡El usuario \texttt{root} se ha dejado una consola abierta!.
 
-      Ahora que lo has visto, quieres aprovechar la posibilidad para poder ser \texttt{root} otro día. Tu problema es que si cambias la contraseña el administrador lo notaría. Necesitas una forma que no afecte a la configuración del sistema (los ficheros de \path{/etc}).
+      Ahora que lo has visto, quieres aprovechar la posibilidad para poder ser \texttt{root} otro día. Tu problema es que si cambias la contraseña \textbf{el administrador lo notaría}. Necesitas una forma que no afecte a la configuración del sistema (los ficheros de \path{/etc}).
     \end{ActividadAdmin}
     \vfill \null
     \columnbreak
@@ -177,9 +177,10 @@ Cada paso está planteado desde el punto de vista de:
     \begin{ActividadHacker}[2. El \textit{hacker} lo aprovecha]
       \begin{itemize}
       \item Consulta información del permiso \texttt{s} en el manual de \texttt{chmod}
-      \item Crea una copia de la \textit{shell} (\texttt{/usr/bash}) en el directorio \textit{home} de \textbf{normal} (\path{/home/normal/shell-de-root})
+      \item Crea el usuario \texttt{normal2}
+      \item Crea una copia de la \textit{shell} (\texttt{/usr/bash}) en el directorio \textit{home} de \textbf{normal2} (\path{/home/normal2/shell-de-root})
       \item Haz que \texttt{shell-de-root} tenga como propietario a \texttt{root} y tenga el permiso \texttt{s}
-      \item Ejecuta \texttt{shell-de-root -p} siendo el usuario \texttt{normal}. ¿Qué ocurre?
+      \item Ejecuta \texttt{shell-de-root -p} siendo el usuario \texttt{normal2}. ¿Qué ocurre?
       \end{itemize}
     \end{ActividadHacker}
 
@@ -203,13 +204,13 @@ Cada paso está planteado desde el punto de vista de:
 
 
     \begin{ActividadAdmin}[2. El administrador lo soluciona]
-      \newcommand{\tutorialcuota}{https://www.howtoforge.com/tutorial/linux-quota-ubuntu-debian}
+      \newcommand{\tutorialcuota}{https://www.linuxtotal.com.mx/?cont=info\_admon\_018}%{https://www.howtoforge.com/tutorial/linux-quota-ubuntu-debian}
       \begin{itemize}
       \item Consulta \enlace{\tutorialcuota}{este enlace} para ver cómo manejar las cuotas
 
         \centering\qrcode[height=4cm]{\tutorialcuota}
         
-      \item \justify Haz que el usuario \texttt{normal} tenga una cuota de 1000 KBytes, Observa qué ocurre cuando intenta utilizar más de este espacio del disco.
+      \item \justify Haz que el usuario \texttt{normal2} tenga una cuota de 1000 KBytes, Observa qué ocurre cuando intenta utilizar más de este espacio del disco.
       \end{itemize}
 
 
