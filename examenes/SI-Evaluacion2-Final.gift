@@ -1,0 +1,246 @@
+Una persona que extrae y analiza los datos que se transmiten por una línea de comunicación es un
+{
+  ~DoS
+  =Sniffer
+  ~Hacker
+  ~Phreaker
+}
+
+Un sistema capaz de detectar usuarios y contraseñas, ya sean contraseñas para el sistema local o para sistemas accedidos remotos, es un
+{
+  ~Phreaker
+  =Keylogger
+  ~Sniffer
+  ~Spoofing
+}
+
+Cuando un servicio informático (por ejemplo, una web) es imitado por otro para hacerse pasar por el servicio original, se esta utilizando
+{
+	~Phishing
+	~Dos
+	~Spamming
+	=Spoofing
+}
+
+Un adware
+{
+	~Es indetectable por el usuario
+	=Muestra mensajes al usuario
+	~Es un virus, del tipo troyano
+	~Es un virus, pero no un troyano
+}
+
+Es spyware
+{
+	=Todos los keyloggers
+	~Todos los virus
+	~Todos los adware
+	~Todos los spoofing
+}
+
+Un malware que modifica otros ficheros ejecutables para que contengan copias del malware es un
+{
+  =Virus
+  ~Troyano
+  ~Adware
+  ~Hoax
+}
+
+Un malware que se propaga, pero sin modificar otros ficheros ejecutables, es un
+{
+  =Gusano
+  ~Troyano
+  ~Virus
+  ~Hoax
+}
+
+El payload
+{
+  =Es la función maliciosa de un malware
+  ~Es un sinónimo de spyware
+  ~Es un sinónimo de adware
+  ~Es el sistema de propagación de un malware
+}
+
+La llamada a casa de un malware
+{
+  =Se usa para comunicar datos privados del usuario, o modificar el payload
+  ~Se usa para infectar a nuevos sistemas
+  ~Puede evitarse instalando un firewall con NAT
+  ~Se usa para instalar un rootkit
+}
+
+
+Un troyano se caracteriza porque
+{
+	~Se instala a través de spam
+	=El usuario colabora en su instalación en el sistema
+	~Roba contraseñas, especialmente de cuentas de banco
+	~Instala un keylogger
+}
+
+La ingeniería social
+{
+  ~Consiste en manipular sistemas biométricos de autentificación
+  ~Se utiliza para hacer sniffing
+  =Se basa en el comportamiento social usual de las personas
+  ~Encuentra formas de construir contraseñas que las personas puedan recordar fácilmente
+}
+
+Un mensaje en el que se da una noticia impactante, pero de baja credibilidad, es un
+{
+  =Hoax
+  ~Spam
+  ~Phishing
+  ~Troyano
+}
+
+Las actualizaciones de software
+{
+  ~No son importantes para la seguridad, excepto la del antivirus
+  =Son importantes para la seguridad, ya que pueden arreglar vulnerabilidades
+  ~No son importantes para la seguridad, pero sí para el usuario, ya que añaden nuevas funcionalidades
+  ~Deben retrasarse lo más posible, porque son una fuente de troyanos (excepto la actualización del antivirus)
+}
+
+Las actividades del _______________ se orientan a perjudicar al atacado, y a veces a obtener algún provecho de ello
+{
+  =Cracker
+  ~Hacker
+  ~Samurai
+  ~Nerd
+}
+
+
+Desde el punto de vista del atacante, un ataque de diccionario es una alternativa a
+{
+  =Fuerza bruta
+  ~Code injection
+  ~Denial of service
+  ~Flooding
+}
+
+
+Un rootkit
+{
+  =Modifica el sistema operativo para ocultar la presencia del malware
+  ~Se comunica con un servidor de internet, de forma que cede el control del sistema infectado al atacante
+  ~Permite que el atacante se conecte a la máquina infectada
+  ~Es un exploit para conseguir privilegios de administrador
+}
+
+Una botnet
+{
+  =Es un conjunto de ordenadores infectados por un malware, y controlados por el atacante
+  ~Es un conjunto de ordenadores realizando un DoS
+  ~Es un conjunto de ordenadores protegidos por el mismo antivirus
+  ~Es un conjunto de ordenadores ejecutando un antivirus que aisla una red interna de Internet 
+}
+
+
+Los ataques de code injection se caracterizan por
+{
+  =Aprovechar vulnerabilidades de los programas o servicios para que ejecuten un código elegido por el atacante
+  ~Provocar una denegación de servicio (DOS)
+  ~Propagarse como un gusano
+  ~Propagarse como un troyano
+}
+
+El antivirus puede ejecutarse
+{
+  =Al vuelo, a demanda y antes de la carga del sistema operativo
+  ~A demanda
+  ~Al vuelo y a demanda
+  ~Al vuelo, a demanda, antes de la carga del sistema operativo y antes  del arranque BIOS
+}
+
+Describe qué medidas pueden tomarse ante el phishing
+{
+}
+
+
+
+La criptografía híbrida
+{
+  ~Mezcla claves públicas y privadas
+  =Mezcla métodos simétricos y asimétricos
+  ~Mezcla métodos de sustitución y transposición
+  ~Mezcla encriptación y firma
+}
+
+En un sistema de clave simétrica
+{
+  ~No es un problema el intercambio de claves, ya que si un tercero intercepta la clave no puede desencriptar los envíos
+  ~Es un problema el intercambio de claves, ya que si un tercero intercepta la clave puede cambiar las firmas electrónicas
+  =No es posible realizar firma electrónica
+  ~No es posible desencriptar sin la clave privada
+}
+
+
+Son funciones resumen
+{
+  ~PKI, MD5
+  ~MD5, GPL
+  ~SHA1, PKI
+  =MD5, SHA1
+}
+
+La desventaja de un sistema de clave asimétrica respecto de uno con clave simétrica es que
+{
+  =Es más lento, por el tiempo de proceso
+  ~Es menos seguro el intercambio de claves
+  ~Es menos seguro, porque las claves son más cortas
+  ~Es menos seguro, porque es una tecnología más antigua
+}
+ 
+
+En una comunicación se comienza utilizando una clave asimétrica para intercambiar una clave simétrica. Esto se hace para
+{
+  ~Aumentar la confidencialidad
+  ~Aumentar el objetivo de "no repudio"
+  =Ahorrar tiempo de proceso, ya que las claves asimétricas son más difíciles de computar
+  ~Ahorrar tiempo de proceso, ya que las claves simétricas son más difíciles de computar
+}
+
+
+En un sistema de criptografía híbrida, como el estudiado en clase
+{
+  =Una de las partes inventa sobre la marcha una clave simétrica
+  ~Una de las partes inventa sobre la marcha una clave pública
+  ~Una de las partes inventa sobre la marcha una clave privada
+  ~Una de las partes inventa sobre la marcha un par de claves (pública y privada)
+}
+
+El "Cifrado del César" es
+{
+  =Criptografía simétrica, porque se usa la misma clave para cifrar y descifrar
+  ~Criptografía asimétrica, porque se usa distinto algoritmo para cifrar que para descifrar
+  ~Criptografía híbrida, porque mezcla métodos manuales y automáticos
+  ~Criptografía estadística, porque se necesitan probar varias posibilidades
+}
+
+La autenticación consiste en
+{
+  =verificar la identidad de un usuario
+  ~firmar un documento
+  ~otorgar permisos a cierto usuario
+  ~usar métodos biométricos
+}
+
+
+En una comunicación HTTPS
+{
+    =El servidor podría requerir también un certificado del usuario, aunque no es común
+    ~Solo puede haber un certificado, que es el que el servidor envía al cliente
+    ~No hay certificados con claves públicas, ya que se usa criptografía asimétrica
+    ~No hay certificados con claves públicas, ya que se usa criptografía híbrida
+}
+
+Describe cómo se puede utilizar un sistema de criptografía asimétrica para realizar la firma digital de un fichero
+{
+}
+
+Describe qué pasos realiza un navegador web para decidir que una conexión https es segura
+{
+}
+

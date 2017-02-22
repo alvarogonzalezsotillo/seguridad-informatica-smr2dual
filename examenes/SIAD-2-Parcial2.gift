@@ -1,0 +1,208 @@
+En un ordenador PC típico, pueden protegerse por contraseña
+{
+  =El sistema operativo, la BIOS y el cargador del sistema operativo (GRUB)
+  ~La BIOS y el sistema operativo
+  ~El sistema operativo, la BIOS, el cargador del sistema operativo (GRUB) y los discos
+  ~El sistema operativo, la BIOS, el cargador del sistema operativo (GRUB) y los dispositivos
+}
+
+Las listas de control de acceso
+{
+  =Pueden especificar quién tiene un permiso concedido para acceder a un recurso, pero también quién tiene ese permiso denegado
+  ~Especifican quién tiene concedido un permiso
+  ~Especifican las contraseñas necesarias para acceder a un recurso
+  ~Especifican los recursos a los que tiene acceso un usuario
+}
+
+Un sistema operativo aplica control de acceso
+{
+  =Cada vez que un proceso accede a algún recurso con ACL
+  ~Cuando el usuario hace "login"
+  ~Cuando un proceso accede a un fichero/dispositivo
+  ~Cuando el usuario hace "login" y cada vez que un proceso accede a un fichero/dispositivo
+}
+
+¿Por qué se necesitan números aleatorios al generar una clave asimétrica?
+{
+  =Para que un atacante no pueda reproducir el proceso de generación de la clave, y así conseguir dicha clave
+  ~Para captar las características biométricas del usario que la genera
+  ~Para que la clave tenga más bits de longitud
+  ~Para asegurar que la clave es más asimétrica que simétrica
+}
+
+El permiso "s" de UNIX/Linux
+{
+  =Hace que un fichero ejecutable se ejecute siempre con los permisos del usuario propietario del fichero
+  ~Hace que un fichero ejecutable se ejecute siempre con los permisos del usuario que lo ejecuta
+  ~Hace que un fichero ejecutable tenga que ser lanzado mediante "sudo"
+  ~Hace que un fichero ejecutable no pueda ser lanzado mediante "sudo"
+}
+
+El comando "sudo" se utiliza en lugar del usuario "root" porque
+{
+  =Se consigue que varios usuarios puedan administrar el equipo sin conocer la contraseña de root
+  ~No hay usuario root en los sistemas que tienen "sudo"
+  ~Se consigue que varios usuarios puedan administrar el equipo sin poder cambiar la contraseña de "root"
+  ~Hay ciertas tareas que ni siquiera el usuario "root" puede realizar, a no ser que sea a través de "sudo"
+}
+
+Encriptando los datos de los discos puede conseguirse
+{
+  =Que no se pueda acceder a los datos ni siquiera con acceso físico al sistema
+  ~Que no se pueda acceder a los datos, a no ser que se tenga acceso físico al sistema
+  ~Que no se puedan modificar los datos, a no ser que se posea la contraseña de la BIOS
+  ~Que no se puedan modificar los datos, a no ser que se posea la contraseña de GRUB
+}
+
+La seguridad biométrica
+{
+  =Es la autentificación basada en características personales
+  ~Es la seguridad basada en la contraseña de la BIOS
+  ~Es la autentificación basada en datos personales (como la LOPD)
+  ~Es la encriptación mediante passphrase, no mediante password
+}
+
+Si un límite de un sistema de cuotas es "blando" 
+{
+  =Es el límite que puede sobrepasarse, y al hacerlo se recibe algún tipo de aviso
+  ~Es un límite grande, de forma que no afecte mucho al usuario que lo tiene
+  ~Es un límite que no puede sobrepasarse, pero se recibe un aviso antes de llegar a él
+  ~Es un límite pequeño, de forma que no afecte mucho a los otros usuarios
+}
+
+La diferencia entre el usuario Administrador de Windows y root de Linux reside en que
+{
+  =El usuario root puede hacer cualquier cosa, y el Administrador tiene algunas limitaciones
+  ~Simplemente, uno es de Windows y otro de Linux
+  ~El usuario Administrador puede hacer cualquier cosa, y el root tiene algunas limitaciones 
+  ~El usuario Administrador no se puede deshabilitar, pero el usuario root sí
+}
+
+Los registros de monitorización en Windows
+{
+  =Se consultan en el visor de sucesos (event viewer)
+  ~Se consultan en el registro de windows (con regedit32)
+  ~Se consultan en el directorio C:\windows\log
+  ~Se consultan en el directorio C:\windows\system\drivers\var\log
+}
+
+Los registros de monitorización en Ubuntu Linux
+{
+  =Se consultan en el directorio /var/log
+  ~Se consultan en el fichero /var/log
+  ~Se consultan con el comando eview
+  ~Se consultan con el comando tail
+}
+
+Las BIOS tienen
+{
+  =Pueden tener una contraseña para modificar los datos de la BIOS, y otra para usar el ordenador
+  ~Como mucho, una contraseña para modificar los datos de la BIOS
+  ~Como mucho, una contraseña para usar el ordenador
+  ~Pueden tener una contraseña para modificar la BIOS y otra por cada sistema operativo instalado
+}
+
+Cuando no se guarda la contraseña directamente, sino su hash (resumen), se hace 
+{
+  =Porque no es fácil encontrar otra contraseña que de el mismo valor de hash
+  ~Para ahorrar tiempo en el paso de calcular el hash cuando haya que compararlo con el de la contraseña introducida
+  ~Para que no se conozca el nombre de usuario asociado a la contraseña
+  ~Porque el hash se encripta con la clave de root (o administrador), y así solamente él puede conocer las contraseñas de los usuarios
+}
+
+Las cuotas de disco mejoran
+{
+  =La disponibilidad
+  ~El no repudio
+  ~La confidencialidad
+  ~La integridad
+}
+
+Las cuotas de disco no tienen efecto
+{
+  =Si el límite que imponen es superior al tamaño del disco
+  ~Si el límite que imponen es inferior al tamaño del disco
+  ~Si el límite soft (blando) es inferior al límite hard (duro)
+  ~Si el límite soft (blando) es distinto al límite hard (duro)
+}
+
+
+Describe la secuencia de arranque de un PC, identificando los momentos en los que típicamente puede solicitarse una contraseña
+{
+}
+
+El uso de VLANS en una red local mejora
+{
+  =La confidencialidad
+  ~El no repudio
+  ~La disponibilidad y el no repudio
+  ~No mejora ninguna característica segura, solo la velocidad
+}
+
+Los sistemas de encriptación más comunes de las redes wifi son
+{
+  =WPA y WEP
+  ~Radius y WPA
+  ~WEP y PSK
+  ~Radius y PSK
+}
+
+Un servidor RADIUS
+{
+  =Realiza la autentificación, basada en usuario y contraseña
+  ~Realiza la encriptación, basada en usuario y contraseña
+  ~Realiza la autentificación, basada en una lista de direcciones MAC
+  ~Realiza la encriptación, basada en una lista de direcciones MAC
+}
+
+Es preferible usar WEP sobre WPA cuando
+{
+  =Los equipos no tienen mucha potencia de cálculo, y se busca velocidad
+  ~Los equipos tienen mucha potencia de cálculo, y se busca seguridad
+  ~Se quiere autentificar a los usuarios, además de cifrar la información
+  ~Se quiere autentificar a los usuarios, pero sin cifrar la información
+}
+
+Elige la opción correcta acerca de las redes WiFi
+{
+  =WEP utiliza RC4 para encriptar
+  ~WEB utiliza AES para encriptar
+  ~WPA2 utiliza RC4 para encriptar
+  ~WPA2 utiliza AES para identificar a cada usuario, porque cada uno puede tener su propia contraseña
+}
+
+Los siguientes protocolos pueden usarse para establecer una VPN
+{
+  =IPSec y L2TP
+  ~AES y L2TP
+  ~PPTP y RADIUS
+  ~IPSec, AES y RADIUS
+}
+
+¿Qué protocolo de VPN es más seguro?
+{
+  =L2TP es más seguro que PPTP
+  ~IPSec es más seguro de AES
+  ~PPTP es más seguro que RADIUS
+  ~PPTP es más seguro que L2TP
+}
+
+Un proxy es un elemento de interconexión que entiende los protocolos
+{
+  =Hasta el nivel de transporte, o incluso capas más altas
+  ~Hasta el nivel de red
+  ~Hasta el nivel de red, o incluso capas más bajas
+  ~Hasta el nivel de enlace
+}
+
+Explica por qué los proxy-caché pierden su eficacia si se utilizan con un protocolo sobre SSL/TLS
+{
+}
+
+Explica por qué NAT se utiliza como firewall
+{
+}
+
+Realiza un diagrama de la red de una empresa en la que se ha instalado una DMZ con doble firewall. La empresa tiene 4 puestos utilizados como workstation, y pretende ofrecer a los usuarios de Internet un servicio Web y uno de DNS
+{
+}

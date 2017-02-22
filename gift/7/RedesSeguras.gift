@@ -1,0 +1,75 @@
+El uso de VLANS en una red local mejora
+{
+  =La confidencialidad
+  ~El no repudio
+  ~La disponibilidad y el no repudio
+  ~No mejora ninguna característica segura, solo la velocidad
+}
+
+Los sistemas de encriptación más comunes de las redes wifi son
+{
+  =WPA y WEP
+  ~Radius y WPA
+  ~WEP y PSK
+  ~Radius y PSK
+}
+
+Un servidor RADIUS
+{
+  =Realiza la autentificación, basada en usuario y contraseña
+  ~Realiza la encriptación, basada en usuario y contraseña
+  ~Realiza la autentificación, basada en una lista de direcciones MAC
+  ~Realiza la encriptación, basada en una lista de direcciones MAC
+}
+
+Es preferible usar WEP sobre WPA cuando
+{
+  =Los equipos no tienen mucha potencia de cálculo, y se busca velocidad
+  ~Los equipos tienen mucha potencia de cálculo, y se busca seguridad
+  ~Se quiere autentificar a los usuarios, además de cifrar la información
+  ~Se quiere autentificar a los usuarios, pero sin cifrar la información
+}
+
+Elige la opción correcta acerca de las redes WiFi
+{
+  =WEP utiliza RC4 para encriptar
+  ~WEB utiliza AES para encriptar
+  ~WPA2 utiliza RC4 para encriptar
+  ~WPA2 utiliza AES para identificar a cada usuario, porque cada uno puede tener su propia contraseña
+}
+
+Los siguientes protocolos pueden usarse para establecer una VPN
+{
+  =IPSec y L2TP
+  ~AES y L2TP
+  ~PPTP y RADIUS
+  ~IPSec, AES y RADIUS
+}
+
+¿Qué protocolo de VPN es más seguro?
+{
+  =L2TP es más seguro que PPTP
+  ~IPSec es más seguro de AES
+  ~PPTP es más seguro que RADIUS
+  ~PPTP es más seguro que L2TP
+}
+
+Un proxy es un elemento de interconexión que entiende los protocolos
+{
+  =Hasta el nivel de transporte, o incluso capas más altas
+  ~Hasta el nivel de red
+  ~Hasta el nivel de red, o incluso capas más bajas
+  ~Hasta el nivel de enlace
+}
+
+Explica por qué los proxy-caché pierden su eficacia si se utilizan con un protocolo sobre SSL/TLS
+{
+}
+
+Explica por qué NAT se utiliza como firewall
+{
+}
+
+Realiza un diagrama de la red de una empresa en la que se ha instalado una DMZ con doble firewall. La empresa tiene 4 puestos utilizados como workstation, y pretende ofrecer a los usuarios de Internet un servicio Web y uno de DNS
+{
+}
