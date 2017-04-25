@@ -243,15 +243,18 @@ stepnumber=5 % Line numbers go in steps of 5
 
 \newcommand{\ficheroautoref}[0]{
 
-\attachfile[mimetype=text/plain,
+\textattachfile[mimetype=text/plain,
 description={La plantilla},
 subject={La plantilla}]
 {../common/plantilla-ejercicio.tex}
+{}
 
-\attachfile[mimetype=text/plain,
+\textattachfile[mimetype=text/plain,
 description={El fichero TEX original para crear este documento, no sea que se nos pierda},
 subject={El fichero TEX original para crear este documento, no sea que se nos pierda}]
-{\currfilename}}
+{\currfilename}
+{}
+}
 
 \newcommand{\entradausuario}[1]{\textit{\textbf{#1}}}
 

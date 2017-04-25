@@ -112,7 +112,7 @@ Cada paso está planteado desde el punto de vista de:
 
     \null \vfill
     \begin{ActividadAdmin}[1. Problema de seguridad]
-      Un usuario utiliza una contraseña muy débil (\textbf{pass}). Su \textit{hash} se guarda en el fichero \path{/etc/shadow},
+      Un usuario utiliza una contraseña muy débil. Su \textit{hash} md5 se guarda en el fichero \path{/etc/shadow}, y es \texttt{4c882dcb24bcb1bc225391a602feca7c}
     \end{ActividadAdmin}
     \vfill \null
     \columnbreak
@@ -120,8 +120,9 @@ Cada paso está planteado desde el punto de vista de:
 
     \begin{ActividadHacker}[2. Un \textit{hacker} lo aprovecha]
       \begin{itemize}
-      \item Consigues de un viejo \textit{backup} el fichero \path{/etc/shadow}, así que conoces el \textit{hash} md5 de la contraseña (en este caso, calcula el \textit{hash} con el comando \texttt{md5sum}).  
-      \item Intenta encontrar el \textit{hash} de la contraseña en Internet. Si lo encuentras, es que la contraseña \textbf{pass} no es demasiado buena, y cualquiera puede encontrar la contraseña a partir del \textit{hash} 
+      \item Consigues de un viejo \textit{backup} el fichero \path{/etc/shadow}, así que conoces el \textit{hash} md5 de la contraseña
+      \item Intenta encontrar el \textit{hash} de la contraseña en Internet. Si lo encuentras, cualquiera puede encontrar la contraseña a partir del \textit{hash}
+        \item Propón una contraseña mejor, e intenta encontrar en Internet su \textit{hash} (calcula el \textit{hash} con el comando \texttt{md5sum}).  
       \end{itemize}
     \end{ActividadHacker}
   \end{multicols}
