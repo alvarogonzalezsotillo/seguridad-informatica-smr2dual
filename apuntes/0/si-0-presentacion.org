@@ -1,6 +1,6 @@
 #+include: "../common/header.org"
-#+Title: SEGURIDAD INFORMÁTICA
-#+SUBTITLE: CÓDIGO: ????
+#+Title: SEGURIDAD INFORMÁTICA (SMR fct ampliada)
+#+SUBTITLE: CÓDIGO: 0226
 #+KEYWORDS: 
 #+REVEAL_THEME: serif
 
@@ -90,6 +90,47 @@ La mayor de:
 
 
 
+* Contenidos
+** Aplicación de medidas de seguridad pasiva:
+- Tipos de seguridad: Activa y pasiva. Necesidad de la seguridad en entornos de red.
+- Ubicación y protección física de los equipos y servidores.
+- Requisitos de la alimentación eléctrica.
+- Sistemas de alimentación ininterrumpida.
+- Estructura física de un sistema de alimentación ininterrumpida.
+
+** Gestión de dispositivos de almacenamiento:
+- Almacenamiento de la información: rendimiento, disponibilidad, accesibilidad.
+- Almacenamiento redundante y distribuido.
+- Almacenamiento remoto y extraíble.
+- Criptografía.
+- Copias de seguridad e imágenes de respaldo.
+- Medios de almacenamiento.
+- Sistemas RAID.
+- Programación de copias de seguridad.
+
+** Aplicación de mecanismos de seguridad activa:
+- Identificación digital. Firma electrónica y certificado digital.
+- Seguridad en los protocolos para comunicaciones inalámbricas.
+- Cortafuegos hardware.
+- Cortafuegos software.
+- Selección del cortafuegos en función de las características de la instalación.
+- Utilización de cortafuegos en un sistema o servidor.
+- Listas de control de acceso.
+- Política de contraseñas.
+- Recuperación de datos.
+- Software malicioso. Clasificación. Herramientas de protección y desinfección.
+
+** Aseguramiento de la privacidad:
+- Métodos para asegurar la privacidad de la información transmitida.
+- Fraudes informáticos y robos de información.
+- Control de la monitorización en redes cableadas.
+- Seguridad en redes inalámbricas.
+- Sistemas de identificación: firma electrónica, certificados digitales y otros.
+- Cortafuegos en equipos y servidores.
+- Cumplimiento de la legislación y de las normas sobre seguridad:
+- Legislación sobre protección de datos.
+- Legislación sobre los servicios de la sociedad de la información y correo electrónico.
+- 
 * Criterios de evaluación
 
 REAL DECRETO 1691/2007, de 14 de diciembre, por el que se establece el título de Técnico en Sistemas Microinformáticos y Redes y se fijan sus enseñanzas mínimas.
@@ -142,3 +183,4 @@ REAL DECRETO 1691/2007, de 14 de diciembre, por el que se establece el título d
 -  Se ha contrastado la obligación de poner a disposición de las personas los datos personales que les conciernen. 
 -  Se ha descrito la legislación actual sobre los servicios de la sociedad de la información y comercio electrónico. 
 -  Se han contrastado las normas sobre gestión de seguridad de la información.
+ 
