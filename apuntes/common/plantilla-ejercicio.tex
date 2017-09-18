@@ -23,7 +23,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass{article}
+\documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{listingsutf8}
 \usepackage[spanish]{babel}
@@ -60,7 +60,7 @@ urlcolor=blue
 \evensidemargin=0in
 \oddsidemargin=0in
 \textwidth=6.5in
-\textheight=9.0in
+\textheight=10.0in
 \headsep=0.25in
 
 \linespread{1.1} % Line spacing
@@ -171,7 +171,7 @@ stepnumber=5 % Line numbers go in steps of 5
 
 \newcommand{\hmwkTitle}{Redefine el hmwkTitle} % Assignment title
 \newcommand{\hmwkDueDate}{asdfadsf} % Due date
-\newcommand{\hmwkClass}{Seguridad informática} % Course/class
+\newcommand{\hmwkClass}{Redefine hmwkClass} % Course/class
 \newcommand{\hmwkClassTime}{} % Class/lecture time
 \newcommand{\hmwkClassInstructor}{} % Teacher/lecturer
 \newcommand{\hmwkAuthorName}{Álvaro González Sotillo} % Your name
@@ -243,17 +243,33 @@ stepnumber=5 % Line numbers go in steps of 5
 
 \newcommand{\ficheroautoref}[0]{
 
-\textattachfile[mimetype=text/plain,
-description={La plantilla},
-subject={La plantilla}]
-{../common/plantilla-ejercicio.tex}
-{}
 
-\textattachfile[mimetype=text/plain,
-description={El fichero TEX original para crear este documento, no sea que se nos pierda},
-subject={El fichero TEX original para crear este documento, no sea que se nos pierda}]
-{\currfilename}
-{}
+  \IfFileExists{../common/plantilla-ejercicio.tex}
+  {
+    \textattachfile[mimetype=text/plain,
+    description={La plantilla},
+    subject={La plantilla}]
+    {../common/plantilla-ejercicio.tex}
+    {}
+  }
+  {}
+
+  \IfFileExists{../apuntes/common/plantilla-ejercicio.tex}
+  {
+    \textattachfile[mimetype=text/plain,
+    description={La plantilla},
+    subject={La plantilla}]
+    {../apuntes/common/plantilla-ejercicio.tex}
+    {}
+  }
+  {}
+  
+
+  \textattachfile[mimetype=text/plain,
+  description={El fichero TEX original para crear este documento, no sea que se nos pierda},
+  subject={El fichero TEX original para crear este documento, no sea que se nos pierda}]
+  {\currfilename}{}
+
 }
 
 \newcommand{\entradausuario}[1]{\textit{\textbf{#1}}}
@@ -300,28 +316,44 @@ subject={#1}]
 \renewcommand{\lstlistingname}{Listado}
 \captionsetup[lstlisting]{font={footnotesize},labelfont=bf,position=bottom}
 \captionsetup[figure]{font={footnotesize},labelfont=bf}
-\lstnewenvironment{listadojava}[1]
+\lstnewenvironment{listadojava}[2]
 {
-  \lstset{captionpos=b,caption={#1},language=Java,frame=single,basicstyle=\footnotesize\ttfamily,showstringspaces=false,numbers=left,xleftmargin=2em}
+  \lstset{captionpos=b,caption={#1},label={#2},language=Java,frame=single,basicstyle=\footnotesize\ttfamily,showstringspaces=false,numbers=left,xleftmargin=2em}
+  \noindent\minipage{\linewidth}%
 }
-{
-}
+{\endminipage}
 
 % LISTADO SHELL
-\lstnewenvironment{listadoshell}[2][]
+\lstnewenvironment{listadoshell}[2]
 {
-  \lstset{captionpos=b,caption={#2},label={#1},language=bash,frame=single,basicstyle=\scriptsize\ttfamily,showstringspaces=false,numbers=none}
+  \lstset{captionpos=b,caption={#1},label={#2},language=bash,frame=single,basicstyle=\scriptsize\ttfamily,showstringspaces=false,numbers=none}
+  \noindent\minipage{\linewidth}%
 }
-{
-}
+{\endminipage}
 
 % LISTADO TXT
-\lstnewenvironment{listadotxt}[2][]
+\lstnewenvironment{listadotxt}[2]
 {
-  \lstset{inputencoding=utf8,captionpos=b,caption={#2},label={#1},frame=single,basicstyle=\scriptsize\ttfamily,showstringspaces=false,numbers=none}
+  \lstset{inputencoding=utf8,captionpos=b,caption={#1},label={#2},frame=single,basicstyle=\scriptsize\ttfamily,showstringspaces=false,numbers=none}
+  \noindent\minipage{\linewidth}%
 }
-{
+{\endminipage}
+
+% LISTADO SQL
+\lstnewenvironment{listadosql}[2]%
+{%
+  (el 1 )caption es #1\\%
+  (el 2) label es #2\\%
+  \\%
+  \lstset{language=sql,inputencoding=utf8,captionpos=b,caption={#1},label={#2},frame=single,basicstyle=\small\ttfamily,showstringspaces=false,numbers=none}%
+  \noindent\minipage{\linewidth}%
 }
+{\endminipage}
+  
+
+
+
+
 
 
 \newcommand{\graficosvg}[3][14cm]{
@@ -343,7 +375,31 @@ subject={#1}]
 
 \newcommand{\primerapagina}{
 \newpage
+\ficheroautoref
 \tableofcontents
-{\ficheroautoref}
 \newpage
+}
+
+% CAJAS
+\usepackage[skins]{tcolorbox}
+\newtcolorbox{Aviso}[1][Aviso]{
+  enhanced,
+  colback=gray!5!white,
+  colframe=gray!75!black,fonttitle=\bfseries,
+  colbacktitle=gray!85!black,
+  attach boxed title to top left={yshift=-2mm,xshift=2mm},
+  title=#1
+}
+
+
+\newcommand{\StudentData}{
+  \begin{cuadrito}[1\textwidth]
+    \vspace{0.3cm}
+    \large{
+      \textbf{Apellidos:} \hrulefill \\
+      \textbf{Nombre:} \hrulefill \\
+      \textbf{Fecha:} \hrulefill \hspace{1cm} \textbf{Grupo:} \hrulefill \\
+    }
+    %\vspace{0.2cm}
+  \end{cuadrito}
 }
